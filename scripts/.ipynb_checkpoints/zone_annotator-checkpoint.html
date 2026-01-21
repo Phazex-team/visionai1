@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Zone Annotator</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 12px; }
+    #canvasWrap { position: relative; display: inline-block; }
+    canvas { border: 1px solid #444; cursor: crosshair; }
+    .controls { margin-top: 8px; }
+    button, select { margin-right: 6px; }
+    #zonesList { margin-top: 8px; }
+    .zoneItem { margin-bottom: 6px; }
+  </style>
+</head>
+<body>
+  <h2>Zone Annotator</h2>
+  <p>Open this file in your browser (double-click or drag into browser). If you run a local server in the repo (python -m http.server), visit <code>http://localhost:8000/scripts/zone_annotator.html</code>.</p>
+  <div id="canvasWrap">
+    <canvas id="c"></canvas>
+  </div>
+  <div class="controls">
+    <label for="zoneName">Zone:</label>
+    <select id="zoneName">
+      <option value="counter">counter</option>
+      <option value="scanner">scanner</option>
+      <option value="pos">pos</option>
+      <option value="customer_area">customer_area</option>
+      <option value="trolley">trolley</option>
+      <option value="baby_seat">baby_seat</option>
+      <option value="cart_bottom">cart_bottom</option>
+      <option value="basket">basket</option>
+      <option value="exit">exit</option>
+    </select>
+    <button id="finishZone">Finish Zone</button>
+    <button id="clearCurrent">Clear Current</button>
+    <button id="undoPoint">Undo Point</button>
+    <button id="download">Download JSON</button>
+    <button id="copyJson">Copy JSON</button>
+    <input type="file" id="loadJson" accept="application/json">
+  </div>
+  <div id="zonesList"></div>
+  <script>
+    // Image path relative to this HTML file
+    const imgPath = '../zone_reference_frame.jpg';
+
+    const img = new Image();
+    const canvas = document.getElementById('c');
+    const ctx = canvas.getContext('2d');
+    const zoneNameSelect = document.getElementById('zoneName');
+    const finishBtn = document.getElementById('finishZone');
+    const clearCurrentBtn = document.getElementById('clearCurrent');
+    const undoPointBtn = document.getElementById('undoPoint');
+    const downloadBtn = document.getElementById('download');
+    const copyBtn = document.getElementById('copyJson');
+    const loadJson = document.getElementById('loadJson');
+    const zonesList = document.getElementById('zonesList');
+
+    let currentPoints = [];
+    let zones = {};
+
+    function resizeCanvasToImage() {
+      canvas.width = img.width;
+      canvas.height = img.height;
+      draw();
+    }
+
+    img.onload = () => {
+      resizeCanvasToImage();
+    };
+    img.onerror = () => {
+      alert('Could not load reference image at: ' + imgPath + '\nIf the file is elsewhere, open this HTML from the folder containing the image.');
+    };
+    img.src = imgPath;
+
+    canvas.addEventListener('click', (e) => {
+      const rect = canvas.getBoundingClientRect();
+      const x = Math.round((e.clientX - rect.left) * (canvas.width / rect.width));
+      const y = Math.round((e.clientY - rect.top) * (canvas.height / rect.height));
+      currentPoints.push([x, y]);
+      draw();
+    });
+
+    function draw() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.drawImage(img, 0, 0);
+
+      // draw existing zones
+      Object.keys(zones).forEach((name) => {
+        const pts = zones[name];
+        if (!pts || pts.length === 0) return;
+        ctx.beginPath();
+        ctx.moveTo(pts[0][0], pts[0][1]);
+        for (let i = 1; i < pts.length; i++) ctx.lineTo(pts[i][0], pts[i][1]);
+        ctx.closePath();
+        ctx.fillStyle = 'rgba(0,0,255,0.15)';
+        ctx.fill();
+        ctx.strokeStyle = '#0033ff';
+        ctx.lineWidth = 2;
+        ctx.stroke();
+        // label
+        const cx = Math.round(pts.reduce((s,p)=>s+p[0],0)/pts.length);
+        const cy = Math.round(pts.reduce((s,p)=>s+p[1],0)/pts.length);
+        ctx.fillStyle = '#fff';
+        ctx.fillText(name, cx-20, cy);
+      });
+
+      // draw current polygon
+      if (currentPoints.length > 0) {
+        ctx.beginPath();
+        ctx.moveTo(currentPoints[0][0], currentPoints[0][1]);
+        for (let i = 1; i < currentPoints.length; i++) ctx.lineTo(currentPoints[i][0], currentPoints[i][1]);
+        ctx.strokeStyle = '#ff0000';
+        ctx.lineWidth = 2;
+        ctx.stroke();
+        // points
+        for (const p of currentPoints) {
+          ctx.fillStyle = '#ff0';
+          ctx.beginPath();
+          ctx.arc(p[0], p[1], 4, 0, Math.PI*2);
+          ctx.fill();
+        }
+      }
+
+      renderZonesList();
+    }
+
+    function renderZonesList() {
+      zonesList.innerHTML = '';
+      for (const k of Object.keys(zones)) {
+        const div = document.createElement('div');
+        div.className = 'zoneItem';
+        div.textContent = k + ': ' + JSON.stringify(zones[k]);
+        zonesList.appendChild(div);
+      }
+    }
+
+    finishBtn.onclick = () => {
+      const name = zoneNameSelect.value;
+      if (!currentPoints || currentPoints.length < 3) { alert('Need at least 3 points'); return; }
+      zones[name] = currentPoints.slice();
+      currentPoints = [];
+      draw();
+    };
+
+    clearCurrentBtn.onclick = () => { currentPoints = []; draw(); };
+    undoPointBtn.onclick = () => { currentPoints.pop(); draw(); };
+
+    downloadBtn.onclick = () => {
+      const out = { video: '', frame_size: [img.width, img.height], zones: zones };
+      const s = JSON.stringify(out, null, 2);
+      const blob = new Blob([s], {type: 'application/json'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = 'zones_config.json'; a.click();
+      URL.revokeObjectURL(url);
+    };
+
+    copyBtn.onclick = () => { const out = { video: '', frame_size: [img.width, img.height], zones: zones }; navigator.clipboard.writeText(JSON.stringify(out, null, 2)).then(()=>alert('JSON copied to clipboard')) };
+
+    loadJson.onchange = (e) => {
+      const f = e.target.files[0];
+      if (!f) return;
+      const reader = new FileReader();
+      reader.onload = () => {
+        try { const data = JSON.parse(reader.result); zones = data.zones || {}; draw(); } catch(err){ alert('Invalid JSON file'); }
+      };
+      reader.readAsText(f);
+    };
+
+    window.addEventListener('resize', draw);
+  </script>
+</body>
+</html>

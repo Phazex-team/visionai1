@@ -1,0 +1,34 @@
+# ===============================
+# Large ML Models / Weights
+# ===============================
+*.pth
+*.pt
+*.onnx
+*.engine
+*.ckpt
+models/
+weights/
+
+# ===============================
+# Large Media / Outputs
+# ===============================
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.ts
+comparison_results/
+outputs/
+results/
+
+# ===============================
+# Runtime / Temp
+# ===============================
+logs/
+.cache/
+tmp/
+venv/
+env/
+__pycache__/
+*.log
+*.tmp   

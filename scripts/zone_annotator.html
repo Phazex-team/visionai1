@@ -1,0 +1,386 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Zone Annotator</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 12px; }
+    #canvasWrap { position: relative; display: inline-block; }
+    canvas { border: 1px solid #444; cursor: crosshair; }
+    .controls { margin-top: 8px; }
+    button, select { margin-right: 6px; }
+    #zonesList { margin-top: 8px; }
+    .zoneItem { margin-bottom: 6px; }
+    #zoneVisibility { margin-top: 12px; padding: 10px; background: #f5f5f5; border-radius: 5px; }
+    #zoneVisibility h4 { margin: 0 0 8px 0; }
+    .visibility-item { display: inline-block; margin-right: 15px; margin-bottom: 5px; }
+    .visibility-item input { margin-right: 4px; }
+    .visibility-item label { cursor: pointer; }
+    .color-dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 4px; vertical-align: middle; }
+    .btn-group { margin-top: 8px; }
+    .btn-small { padding: 2px 8px; font-size: 12px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h2>Zone Annotator</h2>
+  <p>Open this file in your browser (double-click or drag into browser). If you run a local server in the repo (python -m http.server), visit <code>http://localhost:8000/scripts/zone_annotator.html</code>.</p>
+  
+  <div id="canvasWrap">
+    <canvas id="c"></canvas>
+  </div>
+  
+  <div id="zonesList"></div>
+
+  <div id="zoneVisibility">
+    <h4>Zone Visibility (toggle to show/hide)</h4>
+    <div id="visibilityCheckboxes"></div>
+    <div class="btn-group">
+      <button class="btn-small" id="showAll">Show All</button>
+      <button class="btn-small" id="hideAll">Hide All</button>
+      <button class="btn-small" id="showOnlySelected">Show Only Selected Zone</button>
+    </div>
+  </div>
+
+  <div class="controls">
+    <label for="zoneName">Zone:</label>
+    <select id="zoneName">
+      <option value="counter">counter</option>
+      <option value="scanner">scanner</option>
+      <option value="pos">pos</option>
+      <option value="packing_area">packing_area</option>
+      <option value="customer_area">customer_area</option>
+      <option value="trolley">trolley</option>
+      <option value="baby_seat">baby_seat</option>
+      <option value="basket">basket</option>
+      <option value="exit">exit</option>
+      <option value="cashier">cashier</option>
+    </select>
+    <button id="finishZone">Finish Zone</button>
+    <button id="clearCurrent">Clear Current</button>
+    <button id="undoPoint">Undo Point</button>
+    <button id="deleteZone">Delete Selected Zone</button>
+    <button id="download">Download JSON</button>
+    <button id="copyJson">Copy JSON</button>
+    <button id="loadExisting">Load Existing Config</button>
+    <input type="file" id="loadJson" accept="application/json">
+  </div>
+
+  <script>
+    // Image path relative to this HTML file
+    const imgPath = '../zone_reference_frame.jpg';
+    // Existing zones config path
+    const zonesConfigPath = '../zones_config.json';
+
+    const img = new Image();
+    const canvas = document.getElementById('c');
+    const ctx = canvas.getContext('2d');
+    const zoneNameSelect = document.getElementById('zoneName');
+    const finishBtn = document.getElementById('finishZone');
+    const clearCurrentBtn = document.getElementById('clearCurrent');
+    const undoPointBtn = document.getElementById('undoPoint');
+    const deleteZoneBtn = document.getElementById('deleteZone');
+    const downloadBtn = document.getElementById('download');
+    const copyBtn = document.getElementById('copyJson');
+    const loadJson = document.getElementById('loadJson');
+    const loadExistingBtn = document.getElementById('loadExisting');
+    const zonesList = document.getElementById('zonesList');
+    const visibilityCheckboxes = document.getElementById('visibilityCheckboxes');
+    const showAllBtn = document.getElementById('showAll');
+    const hideAllBtn = document.getElementById('hideAll');
+    const showOnlySelectedBtn = document.getElementById('showOnlySelected');
+
+    let currentPoints = [];
+    let zones = {};
+    let zoneVisibility = {};  // Track which zones are visible
+
+    // All zone names for visibility toggles
+    const allZoneNames = ['counter', 'scanner', 'pos', 'packing_area', 'customer_area', 'trolley', 'baby_seat', 'basket', 'exit', 'cashier'];
+
+    // Zone colors for better visualization
+    const zoneColors = {
+      'counter': 'rgba(0, 255, 0, 0.25)',
+      'scanner': 'rgba(255, 0, 0, 0.25)',
+      'pos': 'rgba(255, 165, 0, 0.25)',
+      'exit': 'rgba(255, 0, 0, 0.35)',
+      'customer_area': 'rgba(0, 255, 255, 0.2)',
+      'trolley': 'rgba(255, 0, 255, 0.2)',
+      'basket': 'rgba(128, 0, 128, 0.2)',
+      'packing_area': 'rgba(255, 255, 0, 0.25)',
+      'cashier': 'rgba(0, 128, 255, 0.25)',
+      'baby_seat': 'rgba(128, 128, 0, 0.2)'
+    };
+    const zoneStrokeColors = {
+      'counter': '#00ff00',
+      'scanner': '#ff0000',
+      'pos': '#ffa500',
+      'exit': '#ff0000',
+      'customer_area': '#00ffff',
+      'trolley': '#ff00ff',
+      'basket': '#800080',
+      'packing_area': '#ffff00',
+      'cashier': '#0080ff',
+      'baby_seat': '#808000'
+    };
+
+    // Initialize visibility checkboxes
+    function initVisibilityCheckboxes() {
+      visibilityCheckboxes.innerHTML = '';
+      allZoneNames.forEach(name => {
+        // Initialize all as visible
+        if (zoneVisibility[name] === undefined) {
+          zoneVisibility[name] = true;
+        }
+        
+        const item = document.createElement('span');
+        item.className = 'visibility-item';
+        
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.id = 'vis_' + name;
+        checkbox.checked = zoneVisibility[name];
+        checkbox.onchange = () => {
+          zoneVisibility[name] = checkbox.checked;
+          draw();
+        };
+        
+        const colorDot = document.createElement('span');
+        colorDot.className = 'color-dot';
+        colorDot.style.backgroundColor = zoneStrokeColors[name] || '#666';
+        
+        const label = document.createElement('label');
+        label.htmlFor = 'vis_' + name;
+        label.appendChild(colorDot);
+        label.appendChild(document.createTextNode(name));
+        
+        item.appendChild(checkbox);
+        item.appendChild(label);
+        visibilityCheckboxes.appendChild(item);
+      });
+    }
+
+    // Update checkbox states
+    function updateVisibilityCheckboxes() {
+      allZoneNames.forEach(name => {
+        const checkbox = document.getElementById('vis_' + name);
+        if (checkbox) {
+          checkbox.checked = zoneVisibility[name];
+        }
+      });
+    }
+
+    function resizeCanvasToImage() {
+      canvas.width = img.width;
+      canvas.height = img.height;
+      draw();
+    }
+
+    // Auto-load existing zones config
+    function loadExistingZones() {
+      fetch(zonesConfigPath)
+        .then(response => {
+          if (!response.ok) throw new Error('Config not found');
+          return response.json();
+        })
+        .then(data => {
+          zones = data.zones || {};
+          // Set visibility for loaded zones
+          Object.keys(zones).forEach(name => {
+            zoneVisibility[name] = true;
+          });
+          updateVisibilityCheckboxes();
+          console.log('Loaded existing zones:', Object.keys(zones));
+          draw();
+          alert('Loaded existing zones: ' + Object.keys(zones).join(', '));
+        })
+        .catch(err => {
+          console.log('Could not auto-load zones_config.json:', err.message);
+        });
+    }
+
+    // Initialize visibility checkboxes on page load
+    initVisibilityCheckboxes();
+
+    img.onload = () => {
+      resizeCanvasToImage();
+      // Auto-load existing zones after image loads
+      loadExistingZones();
+    };
+    img.onerror = () => {
+      alert('Could not load reference image at: ' + imgPath + '\nIf the file is elsewhere, open this HTML from the folder containing the image.');
+    };
+    img.src = imgPath;
+
+    canvas.addEventListener('click', (e) => {
+      const rect = canvas.getBoundingClientRect();
+      const x = Math.round((e.clientX - rect.left) * (canvas.width / rect.width));
+      const y = Math.round((e.clientY - rect.top) * (canvas.height / rect.height));
+      currentPoints.push([x, y]);
+      draw();
+    });
+
+    function draw() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.drawImage(img, 0, 0);
+
+      // draw existing zones with distinct colors (respecting visibility)
+      Object.keys(zones).forEach((name) => {
+        // Check visibility - skip if hidden
+        if (zoneVisibility[name] === false) return;
+        
+        const pts = zones[name];
+        if (!pts || pts.length === 0) return;
+        ctx.beginPath();
+        ctx.moveTo(pts[0][0], pts[0][1]);
+        for (let i = 1; i < pts.length; i++) ctx.lineTo(pts[i][0], pts[i][1]);
+        ctx.closePath();
+        ctx.fillStyle = zoneColors[name] || 'rgba(0,0,255,0.15)';
+        ctx.fill();
+        ctx.strokeStyle = zoneStrokeColors[name] || '#0033ff';
+        ctx.lineWidth = 3;
+        ctx.stroke();
+        // label with background
+        const cx = Math.round(pts.reduce((s,p)=>s+p[0],0)/pts.length);
+        const cy = Math.round(pts.reduce((s,p)=>s+p[1],0)/pts.length);
+        ctx.font = 'bold 14px Arial';
+        const textWidth = ctx.measureText(name.toUpperCase()).width;
+        ctx.fillStyle = zoneStrokeColors[name] || '#0033ff';
+        ctx.fillRect(cx - textWidth/2 - 4, cy - 10, textWidth + 8, 20);
+        ctx.fillStyle = '#fff';
+        ctx.fillText(name.toUpperCase(), cx - textWidth/2, cy + 5);
+      });
+
+      // draw current polygon
+      if (currentPoints.length > 0) {
+        ctx.beginPath();
+        ctx.moveTo(currentPoints[0][0], currentPoints[0][1]);
+        for (let i = 1; i < currentPoints.length; i++) ctx.lineTo(currentPoints[i][0], currentPoints[i][1]);
+        ctx.strokeStyle = '#ff0000';
+        ctx.lineWidth = 2;
+        ctx.stroke();
+        // points
+        for (const p of currentPoints) {
+          ctx.fillStyle = '#ff0';
+          ctx.beginPath();
+          ctx.arc(p[0], p[1], 4, 0, Math.PI*2);
+          ctx.fill();
+        }
+      }
+
+      renderZonesList();
+    }
+
+    function renderZonesList() {
+      zonesList.innerHTML = '';
+      for (const k of Object.keys(zones)) {
+        const div = document.createElement('div');
+        div.className = 'zoneItem';
+        div.textContent = k + ': ' + JSON.stringify(zones[k]);
+        zonesList.appendChild(div);
+      }
+    }
+
+    finishBtn.onclick = () => {
+      const name = zoneNameSelect.value;
+      if (!currentPoints || currentPoints.length < 3) { alert('Need at least 3 points'); return; }
+      zones[name] = currentPoints.slice();
+      zoneVisibility[name] = true;  // Make new zone visible
+      updateVisibilityCheckboxes();
+      currentPoints = [];
+      draw();
+    };
+
+    clearCurrentBtn.onclick = () => { currentPoints = []; draw(); };
+    undoPointBtn.onclick = () => { currentPoints.pop(); draw(); };
+
+    downloadBtn.onclick = () => {
+      const out = { video: '', frame_size: [img.width, img.height], zones: zones };
+      const s = JSON.stringify(out, null, 2);
+      const blob = new Blob([s], {type: 'application/json'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = 'zones_config.json'; a.click();
+      URL.revokeObjectURL(url);
+    };
+
+    copyBtn.onclick = () => { const out = { video: '', frame_size: [img.width, img.height], zones: zones }; navigator.clipboard.writeText(JSON.stringify(out, null, 2)).then(()=>alert('JSON copied to clipboard')) };
+
+    loadJson.onchange = (e) => {
+      const f = e.target.files[0];
+      if (!f) return;
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const data = JSON.parse(reader.result);
+          zones = data.zones || {};
+          // Set visibility for loaded zones
+          Object.keys(zones).forEach(name => {
+            zoneVisibility[name] = true;
+          });
+          updateVisibilityCheckboxes();
+          draw();
+        } catch(err){ alert('Invalid JSON file'); }
+      };
+      reader.readAsText(f);
+    };
+
+    // Load existing config button
+    loadExistingBtn.onclick = () => {
+      loadExistingZones();
+    };
+
+    // Visibility control button handlers
+    showAllBtn.onclick = () => {
+      allZoneNames.forEach(name => {
+        zoneVisibility[name] = true;
+      });
+      // Also show any loaded zones not in allZoneNames
+      Object.keys(zones).forEach(name => {
+        zoneVisibility[name] = true;
+      });
+      updateVisibilityCheckboxes();
+      draw();
+    };
+
+    hideAllBtn.onclick = () => {
+      allZoneNames.forEach(name => {
+        zoneVisibility[name] = false;
+      });
+      Object.keys(zones).forEach(name => {
+        zoneVisibility[name] = false;
+      });
+      updateVisibilityCheckboxes();
+      draw();
+    };
+
+    showOnlySelectedBtn.onclick = () => {
+      const selectedZone = zoneNameSelect.value;
+      // Hide all zones first
+      allZoneNames.forEach(name => {
+        zoneVisibility[name] = false;
+      });
+      Object.keys(zones).forEach(name => {
+        zoneVisibility[name] = false;
+      });
+      // Show only selected
+      zoneVisibility[selectedZone] = true;
+      updateVisibilityCheckboxes();
+      draw();
+    };
+
+    // Delete selected zone button handler
+    deleteZoneBtn.onclick = () => {
+      const selectedZone = zoneNameSelect.value;
+      if (zones[selectedZone]) {
+        if (confirm('Delete zone "' + selectedZone + '"?')) {
+          delete zones[selectedZone];
+          draw();
+        }
+      } else {
+        alert('Zone "' + selectedZone + '" does not exist');
+      }
+    };
+
+    window.addEventListener('resize', draw);
+  </script>
+</body>
+</html>

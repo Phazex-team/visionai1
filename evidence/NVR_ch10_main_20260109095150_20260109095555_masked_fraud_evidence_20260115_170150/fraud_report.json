@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-01-15T17:03:40.321666",
+  "video": "videos1/NVR_ch10_main_20260109095150_20260109095555_masked.mp4",
+  "fps": 30.0,
+  "total_frauds": 0,
+  "fraud_records": [],
+  "summary": {
+    "by_type": {},
+    "by_label": {},
+    "total_evidence_frames": 0
+  }
+}

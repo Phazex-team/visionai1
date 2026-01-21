@@ -1,0 +1,202 @@
+classes:
+  person_classes:
+  - person
+  retail_classes:
+  - bottle
+  - box
+  - bag
+  - item
+  - product
+  scanner_classes:
+  - scanner
+detection:
+  confidence_threshold: 0.5
+  device: cuda
+  enable_fp16: true
+  iou_threshold: 0.45
+  model_name: yoloworld
+  model_path: null
+  model_type: cnn
+  weights_path: null
+evidence:
+  buffer_seconds_after: 10
+  buffer_seconds_before: 5
+  enabled: true
+  enable_face_masking: false
+  record_mode: fraud_with_buffer
+  save_frames: true
+  save_video_clips: true
+  video_codec: avc1
+face_masking:
+  enabled: false
+  async_enabled: false
+  detector_type: haar
+  mask_type: blur
+  blur_strength: 51
+  min_detection_confidence: 0.5
+  persistence_frames: 20
+  detection_interval_frames: 10
+  enable_profile_detection: false
+  model_selection: 0
+fps: 30.0
+frame_height: 720
+frame_width: 1280
+metadata: {}
+optimization:
+  batch_size: 1
+  clear_gpu_after_n_frames: 100
+  enable_batch_processing: false
+  enable_roi_crop: true
+  input_height: 720
+  input_width: 1280
+  max_dim: 800
+  model_name: yoloworld
+  roi_bounds:
+  - 150
+  - 150
+  - 2540
+  - 1370
+  skip_every_n_frames: 3
+  target_fps: 15
+pos:
+  data_format: xml
+  enabled: true
+  match_strategy: fuzzy
+  min_match_confidence: 0.75
+  xml_path: videos/2190_9_45748_20260109095013.xml
+video_path: videos/NVR_ch10_main_20260109095150_20260109095555.mp4
+zones:
+  counter:
+  - - 807
+    - 1509
+  - - 1174
+    - 720
+  - - 1406
+    - 766
+  - - 1237
+    - 1513
+  - - 809
+    - 1507
+  scanner:
+  - - 1001
+    - 1021
+  - - 1358
+    - 1063
+  - - 1451
+    - 744
+  - - 1160
+    - 669
+  - - 1000
+    - 1022
+  pos:
+  - - 976
+    - 1062
+  - - 1371
+    - 1135
+  - - 1475
+    - 704
+  - - 1151
+    - 654
+  - - 975
+    - 1059
+  - - 974
+    - 1063
+  customer_area:
+  - - 1520
+    - 573
+  - - 1737
+    - 587
+  - - 1909
+    - 597
+  - - 1935
+    - 607
+  - - 2009
+    - 1482
+  - - 1268
+    - 1498
+  - - 1522
+    - 577
+  trolley:
+  - - 1412
+    - 1518
+  - - 1264
+    - 1512
+  - - 1987
+    - 1514
+  - - 1935
+    - 639
+  - - 1524
+    - 607
+  - - 1264
+    - 1502
+  baby_seat:
+  - - 1522
+    - 573
+  - - 1268
+    - 1488
+  - - 1959
+    - 1508
+  - - 1945
+    - 605
+  - - 1528
+    - 575
+  basket:
+  - - 1514
+    - 565
+  - - 1252
+    - 1506
+  - - 1977
+    - 1512
+  - - 1943
+    - 611
+  - - 1512
+    - 561
+  - - 1514
+    - 561
+  - - 1248
+    - 1502
+  - - 1967
+    - 1508
+  - - 1939
+    - 595
+  - - 1522
+    - 557
+  - - 1508
+    - 565
+  exit:
+  - - 1399
+    - 1021
+  - - 1891
+    - 1087
+  - - 1921
+    - 490
+  - - 1194
+    - 327
+  - - 1102
+    - 504
+  - - 1495
+    - 551
+  - - 1397
+    - 1020
+  cashier:
+  - - 974
+    - 507
+  - - 938
+    - 1008
+  - - 1162
+    - 1039
+  - - 1204
+    - 556
+  - - 976
+    - 503
+  packing_area:
+  - - 926
+    - 742
+  - - 1421
+    - 791
+  - - 1495
+    - 551
+  - - 1086
+    - 495
+  - - 927
+    - 739

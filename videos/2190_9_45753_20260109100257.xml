@@ -1,0 +1,2947 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TAS>
+  <NEW_TA>
+    <TA_CONTROL>
+      <lTaCreateNmbr>259</lTaCreateNmbr>
+      <iTaStatus>4</iTaStatus>
+      <szLastCalledModul>clsVoucherBarcodes</szLastCalledModul>
+      <sModQuantityCnt>1</sModQuantityCnt>
+      <dModQuantityQty>1</dModQuantityQty>
+      <dTotal>0.00</dTotal>
+      <sSelReceiptLine>55</sSelReceiptLine>
+      <bTrainingMode>0</bTrainingMode>
+      <iExactness>2</iExactness>
+      <bPrintReceipt>1</bPrintReceipt>
+      <bTAtoFile>1</bTAtoFile>
+      <bUpdEmplMove>0</bUpdEmplMove>
+      <bMustRescan>0</bMustRescan>
+      <szMode>SERVERMODE</szMode>
+      <bOnline2Server>1</bOnline2Server>
+      <bFiscal>0</bFiscal>
+      <bUpdateTaNmbr>1</bUpdateTaNmbr>
+      <sFromLevel>0</sFromLevel>
+      <sToLevel>0</sToLevel>
+      <szEndTA></szEndTA>
+      <bInvalidOnLocal>0</bInvalidOnLocal>
+      <szTaType>SA</szTaType>
+      <szUniqueID>e8c28efc-f884-490f-a0d8-25c51ed8d95b</szUniqueID>
+    </TA_CONTROL>
+    <HEADER>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>1</lTaCreateNmbr>
+        <lTaSeqNmbr>1</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <szTaVersion>7.5.23.0</szTaVersion>
+      <szDate>20260109100257</szDate>
+      <szTaPosVersion>7.5.25.153</szTaPosVersion>
+      <szTaDomain>POS</szTaDomain>
+      <szTaType>SA</szTaType>
+      <szTaOperationType>SALE</szTaOperationType>
+      <lClientID>1</lClientID>
+      <szExternalClientID>AE</szExternalClientID>
+      <szClientName>UAE</szClientName>
+      <bCustFound>0</bCustFound>
+      <AutoPopulateSerialNumber>Y</AutoPopulateSerialNumber>
+      <bVECustFound>-1</bVECustFound>
+      <bTaxFree>0</bTaxFree>
+      <IsCashDrawerRetryRequired>N</IsCashDrawerRetryRequired>
+      <lTaNmbr>45753</lTaNmbr>
+      <lWorkstationNmbr>9</lWorkstationNmbr>
+      <lRetailStoreID>2190</lRetailStoreID>
+      <szWorkstationGroupID>Checkouts</szWorkstationGroupID>
+      <szWorkstationID>2190VCO09</szWorkstationID>
+      <lReceiptNmbr>45753</lReceiptNmbr>
+      <szSignOnName>1467647</szSignOnName>
+      <szEmplName>Amrita Ghale Kul Bahadur</szEmplName>
+      <lOperatorID>1467647</lOperatorID>
+      <lStatus>1</lStatus>
+      <lPosShiftCounter>1</lPosShiftCounter>
+      <szPayCurrSym>AED</szPayCurrSym>
+      <lChannelID>1</lChannelID>
+      <szExternalID>2190</szExternalID>
+      <szAlpha2Code>AE</szAlpha2Code>
+      <szExternalChannelID>Sales</szExternalChannelID>
+      <szAdrDescription>Lulu Hypermarket Al Kuwaitat</szAdrDescription>
+      <szFirstBusinessName>Lulu Hypermarket Al Kuwaitat</szFirstBusinessName>
+      <szSecondBusinessName>Lulu Hypermarket Al Kuwaitat</szSecondBusinessName>
+      <szCityName>Al Ain</szCityName>
+      <szStreetName>Shakhboot Bin Sultan St</szStreetName>
+      <szPostalLocationZipCode>4048</szPostalLocationZipCode>
+      <szPostalLocationDistrictCode>Central Distric</szPostalLocationDistrictCode>
+      <szPostalLocationCountryCode>971</szPostalLocationCountryCode>
+      <szCompanyTaxNmbr>100228723100003</szCompanyTaxNmbr>
+      <szBusinessDate>20260109</szBusinessDate>
+      <szGLN>0</szGLN>
+      <szHeaderLine1>Lulu Hypermarket LLC</szHeaderLine1>
+      <szHeaderLine2>Branch 4 Kuwaitat Al Ain,Abu Dhabi</szHeaderLine2>
+      <szHeaderLine3>P.O. Box : 87555, Tel : 03 7118600</szHeaderLine3>
+      <szDescription>UAE Checkouts</szDescription>
+      <szSubWorkstationID>2190VCO09</szSubWorkstationID>
+      <szMobileNmbr>+971528242457</szMobileNmbr>
+      <szCustPrintChannel>B</szCustPrintChannel>
+      <beBillPrinted>1</beBillPrinted>
+      <lLines>68</lLines>
+    </HEADER>
+    <STATISTIK>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>2</lTaCreateNmbr>
+        <lTaSeqNmbr>2</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+    </STATISTIK>
+    <LOYALTY_ACCOUNT>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>27</lTaCreateNmbr>
+        <lTaSeqNmbr>3</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <szObjectName>LOYALTY_ACCOUNT</szObjectName>
+      <szCounterName>Happiness Program  UAE</szCounterName>
+      <szAccountID>6737960</szAccountID>
+      <szCustomerID>10276741</szCustomerID>
+      <szAccountTypeCode>PTS</szAccountTypeCode>
+      <szCurrencyCode>PTS</szCurrencyCode>
+      <szMovementID>6ef70c9e-9641-4af8-86ee-90be9ab9eb13</szMovementID>
+      <dConversionFactor>0.0025</dConversionFactor>
+      <dMinimumRedPoints>400.0000</dMinimumRedPoints>
+      <dIncrementRedValue>100.0000</dIncrementRedValue>
+      <dAddedAmount>191.95</dAddedAmount>
+      <dNewAmount>191.95</dNewAmount>
+    </LOYALTY_ACCOUNT>
+    <CUSTOMER>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>25</lTaCreateNmbr>
+        <lTaSeqNmbr>4</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <szDate>20260109100529</szDate>
+      <szCustomerToken>1785100023011197</szCustomerToken>
+      <KEY_CUSTOMER>
+        <szCustomerID>10276741</szCustomerID>
+        <szSalutation>Mr.</szSalutation>
+        <szFirstName>Faheem</szFirstName>
+        <szLastName>Punnasseri</szLastName>
+        <szPhoneNmbr>+971528242457</szPhoneNmbr>
+        <szPrintOption>TR</szPrintOption>
+        <szCustomerType>LC</szCustomerType>
+        <bVECustFound>-1</bVECustFound>
+        <bIsB2BCust>0</bIsB2BCust>
+      </KEY_CUSTOMER>
+    </CUSTOMER>
+    <COUNTER>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>4</lTaCreateNmbr>
+        <lTaSeqNmbr>5</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <GlobalCountersServiceUrl>https://engage-lulu-prd13-weu.ve.vaas.rtl.eu.dieboldnixdorf.com/counter/api/v2</GlobalCountersServiceUrl>
+      <GlobalCountersServiceRequestTimeout>6000</GlobalCountersServiceRequestTimeout>
+      <OperationID>7a6f8eb0-3d93-434a-92cd-3db739716ca1</OperationID>
+      <CheckCounterServiceStatusDuringDiscountCalculation>-1</CheckCounterServiceStatusDuringDiscountCalculation>
+      <RetailStoreID>2190</RetailStoreID>
+      <CustomerID>10276741</CustomerID>
+      <REQUEST />
+      <RESERVED />
+      <COMMIT />
+      <REVERT />
+    </COUNTER>
+    <ART_SALE>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>3</lTaCreateNmbr>
+        <lTaSeqNmbr>6</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <FlagForExtWarrantyItem>N</FlagForExtWarrantyItem>
+      <dTaQty>1</dTaQty>
+      <szItemLookupCode>6294011679254</szItemLookupCode>
+      <lDevice>101</lDevice>
+      <dQuantityEntry>1</dQuantityEntry>
+      <lOPTRCount>1</lOPTRCount>
+      <dQtyOPTRCount>1</dQtyOPTRCount>
+      <szInputString>6294011679254</szInputString>
+      <dTaTotal>9.9</dTaTotal>
+      <szWeightInfo>1EA</szWeightInfo>
+      <lChannelID>1</lChannelID>
+      <lTaPriceInfo>6</lTaPriceInfo>
+      <dTaPrice>9.9000</dTaPrice>
+      <szPrintCodes>S2 </szPrintCodes>
+      <lTadiscountflag>15</lTadiscountflag>
+      <dUsedTotalSale>9.428571428571428571428571429</dUsedTotalSale>
+      <szExternalID>LULU PRIVATE LABEL</szExternalID>
+      <ARTICLE>
+        <szExternalID Type="202">LULU PRIVATE LABEL</szExternalID>
+        <szItemID>2159105</szItemID>
+        <bDiscountFlag>-1</bDiscountFlag>
+        <szMerchHierarchyLevelCode>0000</szMerchHierarchyLevelCode>
+        <szPOSDepartmentID>003009005</szPOSDepartmentID>
+        <szTypeCode>HAWA</szTypeCode>
+        <szPieceUnitOfMeasureCode>ST</szPieceUnitOfMeasureCode>
+        <szItemCategoryTypeCode>0000400001</szItemCategoryTypeCode>
+        <szItemTaxGroupID>S2</szItemTaxGroupID>
+        <szPOSItemID>6294011679254</szPOSItemID>
+        <lRetailStoreID>2190</lRetailStoreID>
+        <szDesc>Lulu Wsepk H/Wash As</szDesc>
+        <szDesc1>Lulu Wsepk H/Wash Ast.500ml 3s</szDesc1>
+        <szDesc2>غسول اليدين متنوع لولو</szDesc2>
+        <szDescription>Lulu Wsepk H/Wash Ast.500ml 3s</szDescription>
+        <dPieceQuantity>1.0000</dPieceQuantity>
+        <szQuantityEntryUnitOfMeasure Type="202">EA</szQuantityEntryUnitOfMeasure>
+        <bTotalDiscountAllowed>-1</bTotalDiscountAllowed>
+        <bBrandItemFlag>6</bBrandItemFlag>
+        <szPriceUnitOfMeasureName>EA</szPriceUnitOfMeasureName>
+        <dQtyArtLink>1.0000</dQtyArtLink>
+        <bVoidAllowed>-1</bVoidAllowed>
+        <lProdRangeStoreGroupID>2190</lProdRangeStoreGroupID>
+        <dPRPackingUnitPriceAmount>9.9000</dPRPackingUnitPriceAmount>
+        <szPRCampaignID>0200808830</szPRCampaignID>
+        <szPRDateValidFrom>20260107050000</szPRDateValidFrom>
+        <szPRDateValidTo>20260113045959</szPRDateValidTo>
+        <bProdRangeFound>-1</bProdRangeFound>
+        <szDesc1Promo Type="202">*</szDesc1Promo>
+      </ARTICLE>
+    </ART_SALE>
+    <ITEM_MEDIA_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>3</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>250</lTaCreateNmbr>
+        <lTaSeqNmbr>7</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lRef2TaMediaRec>186</lRef2TaMediaRec>
+      <dAmount>9.9</dAmount>
+    </ITEM_MEDIA_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>3</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>241</lTaCreateNmbr>
+        <lTaSeqNmbr>8</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>15</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dTotalAmount>9.9</dTotalAmount>
+      <lDiscExtNmbr>15</lDiscExtNmbr>
+      <szAdditionalInformationID>dm_auto_000000000122</szAdditionalInformationID>
+      <szDiscDesc>PHILIPS/WAHL COUPON</szDiscDesc>
+      <szDiscMediaType>MSG</szDiscMediaType>
+      <szDiscountID>349030</szDiscountID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <lSequenceID Type="202">1</lSequenceID>
+      <lArtRefNmbr>3</lArtRefNmbr>
+      <szArtDptNmbr>6294011679254</szArtDptNmbr>
+      <lMessagePosition>3</lMessagePosition>
+      <lPresentation>60</lPresentation>
+      <szGlobalCampaignID>ALNPHILIPSCPNISSUE</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>Messages</szGlobalCampaignPosDesc>
+      <szDiscCategory>Messages</szDiscCategory>
+      <szDiscSubCategory>Offer</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>3</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>240</lTaCreateNmbr>
+        <lTaSeqNmbr>9</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>15</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dDiscValue>100</dDiscValue>
+      <dTotalAmount>9.9</dTotalAmount>
+      <dTotalDiscount>9.9</dTotalDiscount>
+      <lDiscExtNmbr>15</lDiscExtNmbr>
+      <szDiscDesc>Happiness Points</szDiscDesc>
+      <szDiscMediaType>PTS</szDiscMediaType>
+      <szDiscountID>75786</szDiscountID>
+      <szDiscMediaID>loyaltyPointsMediaId</szDiscMediaID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <lSequenceID Type="202">1</lSequenceID>
+      <lArtRefNmbr>3</lArtRefNmbr>
+      <bIndirect>-1</bIndirect>
+      <szArtDptNmbr>6294011679254</szArtDptNmbr>
+      <dExchangeratePts Type="5">1</dExchangeratePts>
+      <szGlobalCampaignID>Happiness Earn Points</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>HAPPINESS EARNED</szGlobalCampaignPosDesc>
+      <szDiscCategory>HAPPINESS EARNED</szDiscCategory>
+      <szDiscSubCategory>Loyalty</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <TAX_ART>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>3</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>63</lTaCreateNmbr>
+        <lTaSeqNmbr>10</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <dUsedTotalSale>9.428571428571428571428571429</dUsedTotalSale>
+      <dIncludedTaxValue>0.47</dIncludedTaxValue>
+      <dIncludedExactTaxValue>0.4714285714285714285714285714</dIncludedExactTaxValue>
+      <dTotalSale>9.9</dTotalSale>
+      <dUsedTotalSaleRounded>9.43</dUsedTotalSaleRounded>
+      <TAX>
+        <bTaxRefundable>1</bTaxRefundable>
+        <szRateRuleEffectiveDate>20070101</szRateRuleEffectiveDate>
+        <szRateRuleEffectiveTime>000000</szRateRuleEffectiveTime>
+        <szRateRuleExpirationDate>20900101</szRateRuleExpirationDate>
+        <szRateRuleExpirationTime>070000</szRateRuleExpirationTime>
+        <szTaxGroupID>S2</szTaxGroupID>
+        <lManualSequenceNumber>1</lManualSequenceNumber>
+        <szTaxAuthorityID>Mof</szTaxAuthorityID>
+        <szTaxAuthorityName>Ministry of Finance</szTaxAuthorityName>
+        <lRoundingDigitsQuantity>2</lRoundingDigitsQuantity>
+        <szTaxGroupRuleName>AE Output VAT 5%</szTaxGroupRuleName>
+        <bTaxIncluded>-1</bTaxIncluded>
+        <dTaxablePercent>100.0000</dTaxablePercent>
+        <lTaxRateRuleManualSequenceNumber>1</lTaxRateRuleManualSequenceNumber>
+        <dPercent>5.0000</dPercent>
+        <szReceiptPrintCode>S2</szReceiptPrintCode>
+        <bStartMinimum>-1</bStartMinimum>
+        <szTaxStoreLocationID>AE</szTaxStoreLocationID>
+      </TAX>
+    </TAX_ART>
+    <ART_SALE>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>5</lTaCreateNmbr>
+        <lTaSeqNmbr>11</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <FlagForExtWarrantyItem>N</FlagForExtWarrantyItem>
+      <dTaQty>1</dTaQty>
+      <dTaPrice>3.5000</dTaPrice>
+      <szItemLookupCode>6281036024091</szItemLookupCode>
+      <lDevice>101</lDevice>
+      <dQuantityEntry>1</dQuantityEntry>
+      <lOPTRCount>1</lOPTRCount>
+      <dQtyOPTRCount>1</dQtyOPTRCount>
+      <szInputString>6281036024091</szInputString>
+      <dTaTotal>3.5</dTaTotal>
+      <szWeightInfo>1EA</szWeightInfo>
+      <lChannelID>1</lChannelID>
+      <lTaPriceInfo>6</lTaPriceInfo>
+      <szPrintCodes>S2 </szPrintCodes>
+      <lTadiscountflag>15</lTadiscountflag>
+      <dUsedTotalSale>3.3333333333333333333333333333</dUsedTotalSale>
+      <szExternalID>KURKURE</szExternalID>
+      <ARTICLE>
+        <szExternalID Type="202">KURKURE</szExternalID>
+        <szItemID>2073517</szItemID>
+        <bDiscountFlag>-1</bDiscountFlag>
+        <szMerchHierarchyLevelCode>0000</szMerchHierarchyLevelCode>
+        <szPOSDepartmentID>001012003</szPOSDepartmentID>
+        <szTypeCode>HAWA</szTypeCode>
+        <szPieceUnitOfMeasureCode>ST</szPieceUnitOfMeasureCode>
+        <szItemCategoryTypeCode>0</szItemCategoryTypeCode>
+        <szItemTaxGroupID>S2</szItemTaxGroupID>
+        <szPOSItemID>6281036024091</szPOSItemID>
+        <lRetailStoreID>2190</lRetailStoreID>
+        <szDesc>Kurkure Redchilli Ca</szDesc>
+        <szDesc1>Kurkure Redchilli Cataka 90g</szDesc1>
+        <szDesc2>مقرمشات ذرة كوركوري فلفل حار</szDesc2>
+        <szDescription>Kurkure Redchilli Cataka 90g</szDescription>
+        <dPackingUnitPriceAmount>3.5000</dPackingUnitPriceAmount>
+        <dPieceQuantity>1.0000</dPieceQuantity>
+        <szQuantityEntryUnitOfMeasure Type="202">EA</szQuantityEntryUnitOfMeasure>
+        <bTotalDiscountAllowed>-1</bTotalDiscountAllowed>
+        <bBrandItemFlag>6</bBrandItemFlag>
+        <szPriceUnitOfMeasureName>EA</szPriceUnitOfMeasureName>
+        <dQtyArtLink>1.0000</dQtyArtLink>
+        <bVoidAllowed>-1</bVoidAllowed>
+        <lProdRangeStoreGroupID>2190</lProdRangeStoreGroupID>
+        <dPRPackingUnitPriceAmount>3.5000</dPRPackingUnitPriceAmount>
+        <szPRCampaignID>VKP0</szPRCampaignID>
+        <szPRDateValidFrom>20251121050000</szPRDateValidFrom>
+        <szPRDateValidTo>30000101045959</szPRDateValidTo>
+        <bProdRangeFound>-1</bProdRangeFound>
+        <dPackingUnitMaxRetailPrice Type="5">3.5000</dPackingUnitMaxRetailPrice>
+      </ARTICLE>
+    </ART_SALE>
+    <ITEM_MEDIA_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>5</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>253</lTaCreateNmbr>
+        <lTaSeqNmbr>12</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lRef2TaMediaRec>186</lRef2TaMediaRec>
+      <dAmount>3.5</dAmount>
+    </ITEM_MEDIA_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>5</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>239</lTaCreateNmbr>
+        <lTaSeqNmbr>13</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>15</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dTotalAmount>3.5</dTotalAmount>
+      <lDiscExtNmbr>15</lDiscExtNmbr>
+      <szAdditionalInformationID>dm_auto_000000000122</szAdditionalInformationID>
+      <szDiscDesc>PHILIPS/WAHL COUPON</szDiscDesc>
+      <szDiscMediaType>MSG</szDiscMediaType>
+      <szDiscountID>349030</szDiscountID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <lSequenceID Type="202">1</lSequenceID>
+      <lArtRefNmbr>5</lArtRefNmbr>
+      <szArtDptNmbr>6281036024091</szArtDptNmbr>
+      <lMessagePosition>3</lMessagePosition>
+      <lPresentation>60</lPresentation>
+      <szGlobalCampaignID>ALNPHILIPSCPNISSUE</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>Messages</szGlobalCampaignPosDesc>
+      <szDiscCategory>Messages</szDiscCategory>
+      <szDiscSubCategory>Offer</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>5</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>238</lTaCreateNmbr>
+        <lTaSeqNmbr>14</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>15</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dDiscValue>100</dDiscValue>
+      <dTotalAmount>3.5</dTotalAmount>
+      <dTotalDiscount>3.5</dTotalDiscount>
+      <lDiscExtNmbr>15</lDiscExtNmbr>
+      <szDiscDesc>Happiness Points</szDiscDesc>
+      <szDiscMediaType>PTS</szDiscMediaType>
+      <szDiscountID>75786</szDiscountID>
+      <szDiscMediaID>loyaltyPointsMediaId</szDiscMediaID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <lSequenceID Type="202">1</lSequenceID>
+      <lArtRefNmbr>5</lArtRefNmbr>
+      <bIndirect>-1</bIndirect>
+      <szArtDptNmbr>6281036024091</szArtDptNmbr>
+      <dExchangeratePts Type="5">1</dExchangeratePts>
+      <szGlobalCampaignID>Happiness Earn Points</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>HAPPINESS EARNED</szGlobalCampaignPosDesc>
+      <szDiscCategory>HAPPINESS EARNED</szDiscCategory>
+      <szDiscSubCategory>Loyalty</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <TAX_ART>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>5</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>62</lTaCreateNmbr>
+        <lTaSeqNmbr>15</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <dUsedTotalSale>3.3333333333333333333333333333</dUsedTotalSale>
+      <dIncludedTaxValue>0.17</dIncludedTaxValue>
+      <dIncludedExactTaxValue>0.1666666666666666666666666667</dIncludedExactTaxValue>
+      <dTotalSale>3.5</dTotalSale>
+      <dUsedTotalSaleRounded>3.33</dUsedTotalSaleRounded>
+      <TAX>
+        <bTaxRefundable>1</bTaxRefundable>
+        <szRateRuleEffectiveDate>20070101</szRateRuleEffectiveDate>
+        <szRateRuleEffectiveTime>000000</szRateRuleEffectiveTime>
+        <szRateRuleExpirationDate>20900101</szRateRuleExpirationDate>
+        <szRateRuleExpirationTime>070000</szRateRuleExpirationTime>
+        <szTaxGroupID>S2</szTaxGroupID>
+        <lManualSequenceNumber>1</lManualSequenceNumber>
+        <szTaxAuthorityID>Mof</szTaxAuthorityID>
+        <szTaxAuthorityName>Ministry of Finance</szTaxAuthorityName>
+        <lRoundingDigitsQuantity>2</lRoundingDigitsQuantity>
+        <szTaxGroupRuleName>AE Output VAT 5%</szTaxGroupRuleName>
+        <bTaxIncluded>-1</bTaxIncluded>
+        <dTaxablePercent>100.0000</dTaxablePercent>
+        <lTaxRateRuleManualSequenceNumber>1</lTaxRateRuleManualSequenceNumber>
+        <dPercent>5.0000</dPercent>
+        <szReceiptPrintCode>S2</szReceiptPrintCode>
+        <bStartMinimum>-1</bStartMinimum>
+        <szTaxStoreLocationID>AE</szTaxStoreLocationID>
+      </TAX>
+    </TAX_ART>
+    <ART_SALE>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>6</lTaCreateNmbr>
+        <lTaSeqNmbr>16</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <FlagForExtWarrantyItem>N</FlagForExtWarrantyItem>
+      <dTaQty>1</dTaQty>
+      <dTaPrice>32.5000</dTaPrice>
+      <szItemLookupCode>7612412423167</szItemLookupCode>
+      <lDevice>101</lDevice>
+      <dQuantityEntry>1</dQuantityEntry>
+      <lOPTRCount>1</lOPTRCount>
+      <dQtyOPTRCount>1</dQtyOPTRCount>
+      <szInputString>7612412423167</szInputString>
+      <dTaTotal>32.5</dTaTotal>
+      <szWeightInfo>1EA</szWeightInfo>
+      <lChannelID>1</lChannelID>
+      <lTaPriceInfo>6</lTaPriceInfo>
+      <szPrintCodes>S2 </szPrintCodes>
+      <lTadiscountflag>15</lTadiscountflag>
+      <dUsedTotalSale>30.952380952380952380952380952</dUsedTotalSale>
+      <szExternalID>CURAPROX</szExternalID>
+      <ARTICLE>
+        <szExternalID Type="202">CURAPROX</szExternalID>
+        <szItemID>1284860</szItemID>
+        <bDiscountFlag>-1</bDiscountFlag>
+        <szMerchHierarchyLevelCode>0000</szMerchHierarchyLevelCode>
+        <szPOSDepartmentID>003004002</szPOSDepartmentID>
+        <szTypeCode>HAWA</szTypeCode>
+        <szPieceUnitOfMeasureCode>ST</szPieceUnitOfMeasureCode>
+        <szItemCategoryTypeCode>0</szItemCategoryTypeCode>
+        <szItemTaxGroupID>S2</szItemTaxGroupID>
+        <szPOSItemID>7612412423167</szPOSItemID>
+        <lRetailStoreID>2190</lRetailStoreID>
+        <szDesc>Cura.T/Brsh Ultra So</szDesc>
+        <szDesc1>Cura.T/Brsh Ultra Soft CS5460</szDesc1>
+        <szDesc2>فرشاة أسنان كيورابروكس</szDesc2>
+        <szDescription>Cura.T/Brsh Ultra Soft CS5460</szDescription>
+        <dPackingUnitPriceAmount>32.5000</dPackingUnitPriceAmount>
+        <dPieceQuantity>1.0000</dPieceQuantity>
+        <szQuantityEntryUnitOfMeasure Type="202">EA</szQuantityEntryUnitOfMeasure>
+        <bTotalDiscountAllowed>-1</bTotalDiscountAllowed>
+        <bBrandItemFlag>6</bBrandItemFlag>
+        <szPriceUnitOfMeasureName>EA</szPriceUnitOfMeasureName>
+        <dQtyArtLink>1.0000</dQtyArtLink>
+        <bVoidAllowed>-1</bVoidAllowed>
+        <lProdRangeStoreGroupID>2190</lProdRangeStoreGroupID>
+        <dPRPackingUnitPriceAmount>32.5000</dPRPackingUnitPriceAmount>
+        <szPRCampaignID>VKP0</szPRCampaignID>
+        <szPRDateValidFrom>20251020050000</szPRDateValidFrom>
+        <szPRDateValidTo>30000101045959</szPRDateValidTo>
+        <bProdRangeFound>-1</bProdRangeFound>
+        <dPackingUnitMaxRetailPrice Type="5">32.5000</dPackingUnitMaxRetailPrice>
+      </ARTICLE>
+    </ART_SALE>
+    <ITEM_MEDIA_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>6</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>247</lTaCreateNmbr>
+        <lTaSeqNmbr>17</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lRef2TaMediaRec>186</lRef2TaMediaRec>
+      <dAmount>25.10</dAmount>
+    </ITEM_MEDIA_INFO>
+    <ITEM_MEDIA_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>6</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>246</lTaCreateNmbr>
+        <lTaSeqNmbr>18</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lRef2TaMediaRec>88</lRef2TaMediaRec>
+      <dAmount>7.40</dAmount>
+    </ITEM_MEDIA_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>6</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>237</lTaCreateNmbr>
+        <lTaSeqNmbr>19</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>15</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dTotalAmount>32.5</dTotalAmount>
+      <lDiscExtNmbr>15</lDiscExtNmbr>
+      <szAdditionalInformationID>dm_auto_000000000122</szAdditionalInformationID>
+      <szDiscDesc>PHILIPS/WAHL COUPON</szDiscDesc>
+      <szDiscMediaType>MSG</szDiscMediaType>
+      <szDiscountID>349030</szDiscountID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <lSequenceID Type="202">1</lSequenceID>
+      <lArtRefNmbr>6</lArtRefNmbr>
+      <szArtDptNmbr>7612412423167</szArtDptNmbr>
+      <lMessagePosition>3</lMessagePosition>
+      <lPresentation>60</lPresentation>
+      <szGlobalCampaignID>ALNPHILIPSCPNISSUE</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>Messages</szGlobalCampaignPosDesc>
+      <szDiscCategory>Messages</szDiscCategory>
+      <szDiscSubCategory>Offer</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>6</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>236</lTaCreateNmbr>
+        <lTaSeqNmbr>20</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>15</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dDiscValue>100</dDiscValue>
+      <dTotalAmount>32.5</dTotalAmount>
+      <dTotalDiscount>32.5</dTotalDiscount>
+      <lDiscExtNmbr>15</lDiscExtNmbr>
+      <szDiscDesc>Happiness Points</szDiscDesc>
+      <szDiscMediaType>PTS</szDiscMediaType>
+      <szDiscountID>75786</szDiscountID>
+      <szDiscMediaID>loyaltyPointsMediaId</szDiscMediaID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <lSequenceID Type="202">1</lSequenceID>
+      <lArtRefNmbr>6</lArtRefNmbr>
+      <bIndirect>-1</bIndirect>
+      <szArtDptNmbr>7612412423167</szArtDptNmbr>
+      <dExchangeratePts Type="5">1</dExchangeratePts>
+      <szGlobalCampaignID>Happiness Earn Points</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>HAPPINESS EARNED</szGlobalCampaignPosDesc>
+      <szDiscCategory>HAPPINESS EARNED</szDiscCategory>
+      <szDiscSubCategory>Loyalty</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <TAX_ART>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>6</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>61</lTaCreateNmbr>
+        <lTaSeqNmbr>21</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <dUsedTotalSale>30.952380952380952380952380952</dUsedTotalSale>
+      <dIncludedTaxValue>1.55</dIncludedTaxValue>
+      <dIncludedExactTaxValue>1.5476190476190476190476190476</dIncludedExactTaxValue>
+      <dTotalSale>32.5</dTotalSale>
+      <dUsedTotalSaleRounded>30.95</dUsedTotalSaleRounded>
+      <TAX>
+        <bTaxRefundable>1</bTaxRefundable>
+        <szRateRuleEffectiveDate>20070101</szRateRuleEffectiveDate>
+        <szRateRuleEffectiveTime>000000</szRateRuleEffectiveTime>
+        <szRateRuleExpirationDate>20900101</szRateRuleExpirationDate>
+        <szRateRuleExpirationTime>070000</szRateRuleExpirationTime>
+        <szTaxGroupID>S2</szTaxGroupID>
+        <lManualSequenceNumber>1</lManualSequenceNumber>
+        <szTaxAuthorityID>Mof</szTaxAuthorityID>
+        <szTaxAuthorityName>Ministry of Finance</szTaxAuthorityName>
+        <lRoundingDigitsQuantity>2</lRoundingDigitsQuantity>
+        <szTaxGroupRuleName>AE Output VAT 5%</szTaxGroupRuleName>
+        <bTaxIncluded>-1</bTaxIncluded>
+        <dTaxablePercent>100.0000</dTaxablePercent>
+        <lTaxRateRuleManualSequenceNumber>1</lTaxRateRuleManualSequenceNumber>
+        <dPercent>5.0000</dPercent>
+        <szReceiptPrintCode>S2</szReceiptPrintCode>
+        <bStartMinimum>-1</bStartMinimum>
+        <szTaxStoreLocationID>AE</szTaxStoreLocationID>
+      </TAX>
+    </TAX_ART>
+    <ART_SALE>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>8</lTaCreateNmbr>
+        <lTaSeqNmbr>22</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <FlagForExtWarrantyItem>N</FlagForExtWarrantyItem>
+      <dTaQty>1</dTaQty>
+      <dTaPrice>6.0000</dTaPrice>
+      <szItemLookupCode>2200014657506</szItemLookupCode>
+      <lDevice>101</lDevice>
+      <dQuantityEntry>1</dQuantityEntry>
+      <lOPTRCount>1</lOPTRCount>
+      <dQtyOPTRCount>1</dQtyOPTRCount>
+      <szInputString>2200014657506</szInputString>
+      <dTaTotal>6</dTaTotal>
+      <szWeightInfo>1EA</szWeightInfo>
+      <lChannelID>1</lChannelID>
+      <lTaPriceInfo>6</lTaPriceInfo>
+      <szPrintCodes>S2 </szPrintCodes>
+      <lTadiscountflag>15</lTadiscountflag>
+      <dUsedTotalSale>5.7142857142857142857142857143</dUsedTotalSale>
+      <szExternalID>ROSA BELLA</szExternalID>
+      <ARTICLE>
+        <szExternalID Type="202">ROSA BELLA</szExternalID>
+        <szItemID>2280210</szItemID>
+        <bDiscountFlag>-1</bDiscountFlag>
+        <szMerchHierarchyLevelCode>0000</szMerchHierarchyLevelCode>
+        <szPOSDepartmentID>003011004</szPOSDepartmentID>
+        <szTypeCode>HAWA</szTypeCode>
+        <szPieceUnitOfMeasureCode>ST</szPieceUnitOfMeasureCode>
+        <szItemCategoryTypeCode>0</szItemCategoryTypeCode>
+        <szItemTaxGroupID>S2</szItemTaxGroupID>
+        <szPOSItemID>2200014657506</szPOSItemID>
+        <lRetailStoreID>2190</lRetailStoreID>
+        <szDesc>R/B Nail Polish 11ml</szDesc>
+        <szDesc1>R/B Nail Polish 11ml MJ-1017</szDesc1>
+        <szDesc2>طلاء أظافر روزا بيلا</szDesc2>
+        <szDescription>R/B Nail Polish 11ml MJ-1017</szDescription>
+        <dPackingUnitPriceAmount>6.0000</dPackingUnitPriceAmount>
+        <dPieceQuantity>1.0000</dPieceQuantity>
+        <szQuantityEntryUnitOfMeasure Type="202">EA</szQuantityEntryUnitOfMeasure>
+        <bTotalDiscountAllowed>-1</bTotalDiscountAllowed>
+        <szPriceUnitOfMeasureName>EA</szPriceUnitOfMeasureName>
+        <dQtyArtLink>1.0000</dQtyArtLink>
+        <bVoidAllowed>-1</bVoidAllowed>
+        <lProdRangeStoreGroupID>2190</lProdRangeStoreGroupID>
+        <dPRPackingUnitPriceAmount>6.0000</dPRPackingUnitPriceAmount>
+        <szPRCampaignID>VKP0</szPRCampaignID>
+        <szPRDateValidFrom>20251021050000</szPRDateValidFrom>
+        <szPRDateValidTo>30000101045959</szPRDateValidTo>
+        <bProdRangeFound>-1</bProdRangeFound>
+        <dPackingUnitMaxRetailPrice Type="5">6.0000</dPackingUnitMaxRetailPrice>
+      </ARTICLE>
+    </ART_SALE>
+    <ITEM_MEDIA_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>8</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>252</lTaCreateNmbr>
+        <lTaSeqNmbr>23</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lRef2TaMediaRec>186</lRef2TaMediaRec>
+      <dAmount>6</dAmount>
+    </ITEM_MEDIA_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>8</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>235</lTaCreateNmbr>
+        <lTaSeqNmbr>24</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>15</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dTotalAmount>6</dTotalAmount>
+      <lDiscExtNmbr>15</lDiscExtNmbr>
+      <szAdditionalInformationID>dm_auto_000000000122</szAdditionalInformationID>
+      <szDiscDesc>PHILIPS/WAHL COUPON</szDiscDesc>
+      <szDiscMediaType>MSG</szDiscMediaType>
+      <szDiscountID>349030</szDiscountID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <lSequenceID Type="202">1</lSequenceID>
+      <lArtRefNmbr>8</lArtRefNmbr>
+      <szArtDptNmbr>2200014657506</szArtDptNmbr>
+      <lMessagePosition>3</lMessagePosition>
+      <lPresentation>60</lPresentation>
+      <szGlobalCampaignID>ALNPHILIPSCPNISSUE</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>Messages</szGlobalCampaignPosDesc>
+      <szDiscCategory>Messages</szDiscCategory>
+      <szDiscSubCategory>Offer</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>8</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>234</lTaCreateNmbr>
+        <lTaSeqNmbr>25</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>15</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dDiscValue>100</dDiscValue>
+      <dTotalAmount>6</dTotalAmount>
+      <dTotalDiscount>6</dTotalDiscount>
+      <lDiscExtNmbr>15</lDiscExtNmbr>
+      <szDiscDesc>Happiness Points</szDiscDesc>
+      <szDiscMediaType>PTS</szDiscMediaType>
+      <szDiscountID>75786</szDiscountID>
+      <szDiscMediaID>loyaltyPointsMediaId</szDiscMediaID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <lSequenceID Type="202">1</lSequenceID>
+      <lArtRefNmbr>8</lArtRefNmbr>
+      <bIndirect>-1</bIndirect>
+      <szArtDptNmbr>2200014657506</szArtDptNmbr>
+      <dExchangeratePts Type="5">1</dExchangeratePts>
+      <szGlobalCampaignID>Happiness Earn Points</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>HAPPINESS EARNED</szGlobalCampaignPosDesc>
+      <szDiscCategory>HAPPINESS EARNED</szDiscCategory>
+      <szDiscSubCategory>Loyalty</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <TAX_ART>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>8</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>60</lTaCreateNmbr>
+        <lTaSeqNmbr>26</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <dUsedTotalSale>5.7142857142857142857142857143</dUsedTotalSale>
+      <dIncludedTaxValue>0.29</dIncludedTaxValue>
+      <dIncludedExactTaxValue>0.2857142857142857142857142857</dIncludedExactTaxValue>
+      <dTotalSale>6</dTotalSale>
+      <dUsedTotalSaleRounded>5.71</dUsedTotalSaleRounded>
+      <TAX>
+        <bTaxRefundable>1</bTaxRefundable>
+        <szRateRuleEffectiveDate>20070101</szRateRuleEffectiveDate>
+        <szRateRuleEffectiveTime>000000</szRateRuleEffectiveTime>
+        <szRateRuleExpirationDate>20900101</szRateRuleExpirationDate>
+        <szRateRuleExpirationTime>070000</szRateRuleExpirationTime>
+        <szTaxGroupID>S2</szTaxGroupID>
+        <lManualSequenceNumber>1</lManualSequenceNumber>
+        <szTaxAuthorityID>Mof</szTaxAuthorityID>
+        <szTaxAuthorityName>Ministry of Finance</szTaxAuthorityName>
+        <lRoundingDigitsQuantity>2</lRoundingDigitsQuantity>
+        <szTaxGroupRuleName>AE Output VAT 5%</szTaxGroupRuleName>
+        <bTaxIncluded>-1</bTaxIncluded>
+        <dTaxablePercent>100.0000</dTaxablePercent>
+        <lTaxRateRuleManualSequenceNumber>1</lTaxRateRuleManualSequenceNumber>
+        <dPercent>5.0000</dPercent>
+        <szReceiptPrintCode>S2</szReceiptPrintCode>
+        <bStartMinimum>-1</bStartMinimum>
+        <szTaxStoreLocationID>AE</szTaxStoreLocationID>
+      </TAX>
+    </TAX_ART>
+    <ART_SALE>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>10</lTaCreateNmbr>
+        <lTaSeqNmbr>27</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <FlagForExtWarrantyItem>N</FlagForExtWarrantyItem>
+      <dTaQty>1</dTaQty>
+      <dTaPrice>57.7500</dTaPrice>
+      <szItemLookupCode>4820078573444</szItemLookupCode>
+      <lDevice>101</lDevice>
+      <dQuantityEntry>1</dQuantityEntry>
+      <lOPTRCount>1</lOPTRCount>
+      <dQtyOPTRCount>1</dQtyOPTRCount>
+      <szInputString>4820078573444</szInputString>
+      <dTaTotal>57.75</dTaTotal>
+      <szWeightInfo>1EA</szWeightInfo>
+      <lChannelID>1</lChannelID>
+      <lTaPriceInfo>6</lTaPriceInfo>
+      <szPrintCodes>S2 </szPrintCodes>
+      <lTadiscountflag>15</lTadiscountflag>
+      <dUsedTotalSale>55</dUsedTotalSale>
+      <szExternalID>SUN KING</szExternalID>
+      <ARTICLE>
+        <szExternalID Type="202">SUN KING</szExternalID>
+        <szItemID>1171189</szItemID>
+        <bDiscountFlag>-1</bDiscountFlag>
+        <szMerchHierarchyLevelCode>0000</szMerchHierarchyLevelCode>
+        <szPOSDepartmentID>001011001</szPOSDepartmentID>
+        <szTypeCode>HAWA</szTypeCode>
+        <szPieceUnitOfMeasureCode>ST</szPieceUnitOfMeasureCode>
+        <szItemCategoryTypeCode>0</szItemCategoryTypeCode>
+        <szItemTaxGroupID>S2</szItemTaxGroupID>
+        <szPOSItemID>4820078573444</szPOSItemID>
+        <lRetailStoreID>2190</lRetailStoreID>
+        <szDesc>SunKing Sunflower Oi</szDesc>
+        <szDesc1>SunKing Sunflower Oil 5L</szDesc1>
+        <szDesc2>زيت عباد شمس صن كينج</szDesc2>
+        <szDescription>SunKing Sunflower Oil 5L</szDescription>
+        <dPackingUnitPriceAmount>57.7500</dPackingUnitPriceAmount>
+        <dPieceQuantity>1.0000</dPieceQuantity>
+        <szQuantityEntryUnitOfMeasure Type="202">EA</szQuantityEntryUnitOfMeasure>
+        <bTotalDiscountAllowed>-1</bTotalDiscountAllowed>
+        <bBrandItemFlag>6</bBrandItemFlag>
+        <szPriceUnitOfMeasureName>EA</szPriceUnitOfMeasureName>
+        <dQtyArtLink>1.0000</dQtyArtLink>
+        <bVoidAllowed>-1</bVoidAllowed>
+        <lProdRangeStoreGroupID>2190</lProdRangeStoreGroupID>
+        <dPRPackingUnitPriceAmount>57.7500</dPRPackingUnitPriceAmount>
+        <szPRCampaignID>VKP0</szPRCampaignID>
+        <szPRDateValidFrom>20260107050000</szPRDateValidFrom>
+        <szPRDateValidTo>30000101045959</szPRDateValidTo>
+        <bProdRangeFound>-1</bProdRangeFound>
+        <dPackingUnitMaxRetailPrice Type="5">57.7500</dPackingUnitMaxRetailPrice>
+      </ARTICLE>
+    </ART_SALE>
+    <ITEM_MEDIA_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>10</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>244</lTaCreateNmbr>
+        <lTaSeqNmbr>28</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lRef2TaMediaRec>88</lRef2TaMediaRec>
+      <dAmount>57.75</dAmount>
+    </ITEM_MEDIA_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>10</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>233</lTaCreateNmbr>
+        <lTaSeqNmbr>29</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>15</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dTotalAmount>57.75</dTotalAmount>
+      <lDiscExtNmbr>15</lDiscExtNmbr>
+      <szAdditionalInformationID>dm_auto_000000000122</szAdditionalInformationID>
+      <szDiscDesc>PHILIPS/WAHL COUPON</szDiscDesc>
+      <szDiscMediaType>MSG</szDiscMediaType>
+      <szDiscountID>349030</szDiscountID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <lSequenceID Type="202">1</lSequenceID>
+      <lArtRefNmbr>10</lArtRefNmbr>
+      <szArtDptNmbr>4820078573444</szArtDptNmbr>
+      <lMessagePosition>3</lMessagePosition>
+      <lPresentation>60</lPresentation>
+      <szGlobalCampaignID>ALNPHILIPSCPNISSUE</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>Messages</szGlobalCampaignPosDesc>
+      <szDiscCategory>Messages</szDiscCategory>
+      <szDiscSubCategory>Offer</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>10</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>232</lTaCreateNmbr>
+        <lTaSeqNmbr>30</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>15</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dDiscValue>100</dDiscValue>
+      <dTotalAmount>57.75</dTotalAmount>
+      <dTotalDiscount>57.75</dTotalDiscount>
+      <lDiscExtNmbr>15</lDiscExtNmbr>
+      <szDiscDesc>Happiness Points</szDiscDesc>
+      <szDiscMediaType>PTS</szDiscMediaType>
+      <szDiscountID>75786</szDiscountID>
+      <szDiscMediaID>loyaltyPointsMediaId</szDiscMediaID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <lSequenceID Type="202">1</lSequenceID>
+      <lArtRefNmbr>10</lArtRefNmbr>
+      <bIndirect>-1</bIndirect>
+      <szArtDptNmbr>4820078573444</szArtDptNmbr>
+      <dExchangeratePts Type="5">1</dExchangeratePts>
+      <szGlobalCampaignID>Happiness Earn Points</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>HAPPINESS EARNED</szGlobalCampaignPosDesc>
+      <szDiscCategory>HAPPINESS EARNED</szDiscCategory>
+      <szDiscSubCategory>Loyalty</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <TAX_ART>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>10</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>59</lTaCreateNmbr>
+        <lTaSeqNmbr>31</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <dUsedTotalSale>55</dUsedTotalSale>
+      <dIncludedTaxValue>2.75</dIncludedTaxValue>
+      <dIncludedExactTaxValue>2.75000000</dIncludedExactTaxValue>
+      <dTotalSale>57.75</dTotalSale>
+      <dUsedTotalSaleRounded>55</dUsedTotalSaleRounded>
+      <TAX>
+        <bTaxRefundable>1</bTaxRefundable>
+        <szRateRuleEffectiveDate>20070101</szRateRuleEffectiveDate>
+        <szRateRuleEffectiveTime>000000</szRateRuleEffectiveTime>
+        <szRateRuleExpirationDate>20900101</szRateRuleExpirationDate>
+        <szRateRuleExpirationTime>070000</szRateRuleExpirationTime>
+        <szTaxGroupID>S2</szTaxGroupID>
+        <lManualSequenceNumber>1</lManualSequenceNumber>
+        <szTaxAuthorityID>Mof</szTaxAuthorityID>
+        <szTaxAuthorityName>Ministry of Finance</szTaxAuthorityName>
+        <lRoundingDigitsQuantity>2</lRoundingDigitsQuantity>
+        <szTaxGroupRuleName>AE Output VAT 5%</szTaxGroupRuleName>
+        <bTaxIncluded>-1</bTaxIncluded>
+        <dTaxablePercent>100.0000</dTaxablePercent>
+        <lTaxRateRuleManualSequenceNumber>1</lTaxRateRuleManualSequenceNumber>
+        <dPercent>5.0000</dPercent>
+        <szReceiptPrintCode>S2</szReceiptPrintCode>
+        <bStartMinimum>-1</bStartMinimum>
+        <szTaxStoreLocationID>AE</szTaxStoreLocationID>
+      </TAX>
+    </TAX_ART>
+    <ART_SALE>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>12</lTaCreateNmbr>
+        <lTaSeqNmbr>32</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <FlagForExtWarrantyItem>N</FlagForExtWarrantyItem>
+      <dTaQty>1</dTaQty>
+      <szItemLookupCode>5023659210779</szItemLookupCode>
+      <lDevice>101</lDevice>
+      <dQuantityEntry>1</dQuantityEntry>
+      <lOPTRCount>1</lOPTRCount>
+      <dQtyOPTRCount>1</dQtyOPTRCount>
+      <szInputString>5023659210779</szInputString>
+      <dTaTotal>36.95</dTaTotal>
+      <szWeightInfo>1EA</szWeightInfo>
+      <lChannelID>1</lChannelID>
+      <lTaPriceInfo>6</lTaPriceInfo>
+      <dTaPrice>36.9500</dTaPrice>
+      <szPrintCodes>S2 </szPrintCodes>
+      <lTadiscountflag>15</lTadiscountflag>
+      <dUsedTotalSale>35.19047619047619047619047619</dUsedTotalSale>
+      <szExternalID>AFIA</szExternalID>
+      <ARTICLE>
+        <szExternalID Type="202">AFIA</szExternalID>
+        <szItemID>1679202</szItemID>
+        <bDiscountFlag>-1</bDiscountFlag>
+        <szMerchHierarchyLevelCode>0000</szMerchHierarchyLevelCode>
+        <szPOSDepartmentID>001011002</szPOSDepartmentID>
+        <szTypeCode>HAWA</szTypeCode>
+        <szPieceUnitOfMeasureCode>ST</szPieceUnitOfMeasureCode>
+        <szItemCategoryTypeCode>0000400001</szItemCategoryTypeCode>
+        <szItemTaxGroupID>S2</szItemTaxGroupID>
+        <szPOSItemID>5023659210779</szPOSItemID>
+        <lRetailStoreID>2190</lRetailStoreID>
+        <szDesc>Afia Corn Oil 1.5lt </szDesc>
+        <szDesc1>Afia Corn Oil 1.5lt 2s PO</szDesc1>
+        <szDesc2>زيت ذرة عافية</szDesc2>
+        <szDescription>Afia Corn Oil 1.5lt 2s PO</szDescription>
+        <dPieceQuantity>1.0000</dPieceQuantity>
+        <szQuantityEntryUnitOfMeasure Type="202">EA</szQuantityEntryUnitOfMeasure>
+        <bTotalDiscountAllowed>-1</bTotalDiscountAllowed>
+        <bBrandItemFlag>6</bBrandItemFlag>
+        <szPriceUnitOfMeasureName>EA</szPriceUnitOfMeasureName>
+        <dQtyArtLink>1.0000</dQtyArtLink>
+        <bVoidAllowed>-1</bVoidAllowed>
+        <lProdRangeStoreGroupID>2190</lProdRangeStoreGroupID>
+        <dPRPackingUnitPriceAmount>36.9500</dPRPackingUnitPriceAmount>
+        <szPRCampaignID>0200831833</szPRCampaignID>
+        <szPRDateValidFrom>20260107050000</szPRDateValidFrom>
+        <szPRDateValidTo>20260110045959</szPRDateValidTo>
+        <bProdRangeFound>-1</bProdRangeFound>
+        <szDesc1Promo Type="202">*</szDesc1Promo>
+      </ARTICLE>
+    </ART_SALE>
+    <ITEM_MEDIA_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>12</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>245</lTaCreateNmbr>
+        <lTaSeqNmbr>33</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lRef2TaMediaRec>88</lRef2TaMediaRec>
+      <dAmount>36.95</dAmount>
+    </ITEM_MEDIA_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>12</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>231</lTaCreateNmbr>
+        <lTaSeqNmbr>34</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>15</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dTotalAmount>36.95</dTotalAmount>
+      <lDiscExtNmbr>15</lDiscExtNmbr>
+      <szAdditionalInformationID>dm_auto_000000000122</szAdditionalInformationID>
+      <szDiscDesc>PHILIPS/WAHL COUPON</szDiscDesc>
+      <szDiscMediaType>MSG</szDiscMediaType>
+      <szDiscountID>349030</szDiscountID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <lSequenceID Type="202">1</lSequenceID>
+      <lArtRefNmbr>12</lArtRefNmbr>
+      <szArtDptNmbr>5023659210779</szArtDptNmbr>
+      <lMessagePosition>3</lMessagePosition>
+      <lPresentation>60</lPresentation>
+      <szGlobalCampaignID>ALNPHILIPSCPNISSUE</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>Messages</szGlobalCampaignPosDesc>
+      <szDiscCategory>Messages</szDiscCategory>
+      <szDiscSubCategory>Offer</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>12</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>230</lTaCreateNmbr>
+        <lTaSeqNmbr>35</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>15</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dDiscValue>100</dDiscValue>
+      <dTotalAmount>36.95</dTotalAmount>
+      <dTotalDiscount>36.95</dTotalDiscount>
+      <lDiscExtNmbr>15</lDiscExtNmbr>
+      <szDiscDesc>Happiness Points</szDiscDesc>
+      <szDiscMediaType>PTS</szDiscMediaType>
+      <szDiscountID>75786</szDiscountID>
+      <szDiscMediaID>loyaltyPointsMediaId</szDiscMediaID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <lSequenceID Type="202">1</lSequenceID>
+      <lArtRefNmbr>12</lArtRefNmbr>
+      <bIndirect>-1</bIndirect>
+      <szArtDptNmbr>5023659210779</szArtDptNmbr>
+      <dExchangeratePts Type="5">1</dExchangeratePts>
+      <szGlobalCampaignID>Happiness Earn Points</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>HAPPINESS EARNED</szGlobalCampaignPosDesc>
+      <szDiscCategory>HAPPINESS EARNED</szDiscCategory>
+      <szDiscSubCategory>Loyalty</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <TAX_ART>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>12</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>58</lTaCreateNmbr>
+        <lTaSeqNmbr>36</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <dUsedTotalSale>35.19047619047619047619047619</dUsedTotalSale>
+      <dIncludedTaxValue>1.76</dIncludedTaxValue>
+      <dIncludedExactTaxValue>1.7595238095238095238095238095</dIncludedExactTaxValue>
+      <dTotalSale>36.95</dTotalSale>
+      <dUsedTotalSaleRounded>35.19</dUsedTotalSaleRounded>
+      <TAX>
+        <bTaxRefundable>1</bTaxRefundable>
+        <szRateRuleEffectiveDate>20070101</szRateRuleEffectiveDate>
+        <szRateRuleEffectiveTime>000000</szRateRuleEffectiveTime>
+        <szRateRuleExpirationDate>20900101</szRateRuleExpirationDate>
+        <szRateRuleExpirationTime>070000</szRateRuleExpirationTime>
+        <szTaxGroupID>S2</szTaxGroupID>
+        <lManualSequenceNumber>1</lManualSequenceNumber>
+        <szTaxAuthorityID>Mof</szTaxAuthorityID>
+        <szTaxAuthorityName>Ministry of Finance</szTaxAuthorityName>
+        <lRoundingDigitsQuantity>2</lRoundingDigitsQuantity>
+        <szTaxGroupRuleName>AE Output VAT 5%</szTaxGroupRuleName>
+        <bTaxIncluded>-1</bTaxIncluded>
+        <dTaxablePercent>100.0000</dTaxablePercent>
+        <lTaxRateRuleManualSequenceNumber>1</lTaxRateRuleManualSequenceNumber>
+        <dPercent>5.0000</dPercent>
+        <szReceiptPrintCode>S2</szReceiptPrintCode>
+        <bStartMinimum>-1</bStartMinimum>
+        <szTaxStoreLocationID>AE</szTaxStoreLocationID>
+      </TAX>
+    </TAX_ART>
+    <ART_SALE>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>14</lTaCreateNmbr>
+        <lTaSeqNmbr>37</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <FlagForExtWarrantyItem>N</FlagForExtWarrantyItem>
+      <dTaQty>1</dTaQty>
+      <dTaPrice>14.7500</dTaPrice>
+      <szItemLookupCode>6295120027387</szItemLookupCode>
+      <lDevice>101</lDevice>
+      <dQuantityEntry>1</dQuantityEntry>
+      <lOPTRCount>1</lOPTRCount>
+      <dQtyOPTRCount>1</dQtyOPTRCount>
+      <szInputString>6295120027387</szInputString>
+      <dTaTotal>14.75</dTaTotal>
+      <szWeightInfo>1EA</szWeightInfo>
+      <lChannelID>1</lChannelID>
+      <lTaPriceInfo>6</lTaPriceInfo>
+      <szPrintCodes>S2 </szPrintCodes>
+      <lTadiscountflag>15</lTadiscountflag>
+      <dUsedTotalSale>14.047619047619047619047619048</dUsedTotalSale>
+      <szExternalID>R&amp;B DETTOL BEAUTY</szExternalID>
+      <ARTICLE>
+        <szExternalID Type="202">R&amp;B DETTOL BEAUTY</szExternalID>
+        <szItemID>1179865</szItemID>
+        <bDiscountFlag>-1</bDiscountFlag>
+        <szMerchHierarchyLevelCode>0000</szMerchHierarchyLevelCode>
+        <szPOSDepartmentID>003009008</szPOSDepartmentID>
+        <szTypeCode>HAWA</szTypeCode>
+        <szPieceUnitOfMeasureCode>ST</szPieceUnitOfMeasureCode>
+        <szItemCategoryTypeCode>0</szItemCategoryTypeCode>
+        <szItemTaxGroupID>S2</szItemTaxGroupID>
+        <szPOSItemID>6295120027387</szPOSItemID>
+        <lRetailStoreID>2190</lRetailStoreID>
+        <szDesc>Det.H/Sanitzr Fresh </szDesc>
+        <szDesc1>Det.H/Sanitzr Fresh E/Hook50ml</szDesc1>
+        <szDesc2>معقم لليدين ديتول</szDesc2>
+        <szDescription>Det.H/Sanitzr Fresh E/Hook50ml</szDescription>
+        <dPackingUnitPriceAmount>14.7500</dPackingUnitPriceAmount>
+        <dPieceQuantity>1.0000</dPieceQuantity>
+        <szQuantityEntryUnitOfMeasure Type="202">EA</szQuantityEntryUnitOfMeasure>
+        <bTotalDiscountAllowed>-1</bTotalDiscountAllowed>
+        <bBrandItemFlag>6</bBrandItemFlag>
+        <szPriceUnitOfMeasureName>EA</szPriceUnitOfMeasureName>
+        <dQtyArtLink>1.0000</dQtyArtLink>
+        <bVoidAllowed>-1</bVoidAllowed>
+        <lProdRangeStoreGroupID>2190</lProdRangeStoreGroupID>
+        <dPRPackingUnitPriceAmount>14.7500</dPRPackingUnitPriceAmount>
+        <szPRCampaignID>VKP0</szPRCampaignID>
+        <szPRDateValidFrom>20251022050000</szPRDateValidFrom>
+        <szPRDateValidTo>30000101045959</szPRDateValidTo>
+        <bProdRangeFound>-1</bProdRangeFound>
+        <dPackingUnitMaxRetailPrice Type="5">14.7500</dPackingUnitMaxRetailPrice>
+      </ARTICLE>
+    </ART_SALE>
+    <ITEM_MEDIA_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>14</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>249</lTaCreateNmbr>
+        <lTaSeqNmbr>38</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lRef2TaMediaRec>186</lRef2TaMediaRec>
+      <dAmount>14.75</dAmount>
+    </ITEM_MEDIA_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>14</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>229</lTaCreateNmbr>
+        <lTaSeqNmbr>39</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>15</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dTotalAmount>14.75</dTotalAmount>
+      <lDiscExtNmbr>15</lDiscExtNmbr>
+      <szAdditionalInformationID>dm_auto_000000000122</szAdditionalInformationID>
+      <szDiscDesc>PHILIPS/WAHL COUPON</szDiscDesc>
+      <szDiscMediaType>MSG</szDiscMediaType>
+      <szDiscountID>349030</szDiscountID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <lSequenceID Type="202">1</lSequenceID>
+      <lArtRefNmbr>14</lArtRefNmbr>
+      <szArtDptNmbr>6295120027387</szArtDptNmbr>
+      <lMessagePosition>3</lMessagePosition>
+      <lPresentation>60</lPresentation>
+      <szGlobalCampaignID>ALNPHILIPSCPNISSUE</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>Messages</szGlobalCampaignPosDesc>
+      <szDiscCategory>Messages</szDiscCategory>
+      <szDiscSubCategory>Offer</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>14</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>228</lTaCreateNmbr>
+        <lTaSeqNmbr>40</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>15</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dDiscValue>100</dDiscValue>
+      <dTotalAmount>14.75</dTotalAmount>
+      <dTotalDiscount>14.75</dTotalDiscount>
+      <lDiscExtNmbr>15</lDiscExtNmbr>
+      <szDiscDesc>Happiness Points</szDiscDesc>
+      <szDiscMediaType>PTS</szDiscMediaType>
+      <szDiscountID>75786</szDiscountID>
+      <szDiscMediaID>loyaltyPointsMediaId</szDiscMediaID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <lSequenceID Type="202">1</lSequenceID>
+      <lArtRefNmbr>14</lArtRefNmbr>
+      <bIndirect>-1</bIndirect>
+      <szArtDptNmbr>6295120027387</szArtDptNmbr>
+      <dExchangeratePts Type="5">1</dExchangeratePts>
+      <szGlobalCampaignID>Happiness Earn Points</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>HAPPINESS EARNED</szGlobalCampaignPosDesc>
+      <szDiscCategory>HAPPINESS EARNED</szDiscCategory>
+      <szDiscSubCategory>Loyalty</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <TAX_ART>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>14</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>57</lTaCreateNmbr>
+        <lTaSeqNmbr>41</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <dUsedTotalSale>14.047619047619047619047619048</dUsedTotalSale>
+      <dIncludedTaxValue>0.7</dIncludedTaxValue>
+      <dIncludedExactTaxValue>0.7023809523809523809523809524</dIncludedExactTaxValue>
+      <dTotalSale>14.75</dTotalSale>
+      <dUsedTotalSaleRounded>14.05</dUsedTotalSaleRounded>
+      <TAX>
+        <bTaxRefundable>1</bTaxRefundable>
+        <szRateRuleEffectiveDate>20070101</szRateRuleEffectiveDate>
+        <szRateRuleEffectiveTime>000000</szRateRuleEffectiveTime>
+        <szRateRuleExpirationDate>20900101</szRateRuleExpirationDate>
+        <szRateRuleExpirationTime>070000</szRateRuleExpirationTime>
+        <szTaxGroupID>S2</szTaxGroupID>
+        <lManualSequenceNumber>1</lManualSequenceNumber>
+        <szTaxAuthorityID>Mof</szTaxAuthorityID>
+        <szTaxAuthorityName>Ministry of Finance</szTaxAuthorityName>
+        <lRoundingDigitsQuantity>2</lRoundingDigitsQuantity>
+        <szTaxGroupRuleName>AE Output VAT 5%</szTaxGroupRuleName>
+        <bTaxIncluded>-1</bTaxIncluded>
+        <dTaxablePercent>100.0000</dTaxablePercent>
+        <lTaxRateRuleManualSequenceNumber>1</lTaxRateRuleManualSequenceNumber>
+        <dPercent>5.0000</dPercent>
+        <szReceiptPrintCode>S2</szReceiptPrintCode>
+        <bStartMinimum>-1</bStartMinimum>
+        <szTaxStoreLocationID>AE</szTaxStoreLocationID>
+      </TAX>
+    </TAX_ART>
+    <ART_SALE>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>16</lTaCreateNmbr>
+        <lTaSeqNmbr>42</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <FlagForExtWarrantyItem>N</FlagForExtWarrantyItem>
+      <dTaQty>1</dTaQty>
+      <dTaPrice>8.2500</dTaPrice>
+      <szItemLookupCode>6291106122183</szItemLookupCode>
+      <lDevice>101</lDevice>
+      <dQuantityEntry>1</dQuantityEntry>
+      <lOPTRCount>1</lOPTRCount>
+      <dQtyOPTRCount>1</dQtyOPTRCount>
+      <szInputString>6291106122183</szInputString>
+      <dTaTotal>8.25</dTaTotal>
+      <szWeightInfo>1EA</szWeightInfo>
+      <lChannelID>1</lChannelID>
+      <lTaPriceInfo>6</lTaPriceInfo>
+      <szPrintCodes>S2 </szPrintCodes>
+      <lTadiscountflag>30</lTadiscountflag>
+      <dTaDiscount>-1.65</dTaDiscount>
+      <dUsedTotalSale>6.2857142857142857142857142857</dUsedTotalSale>
+      <szExternalID>REEMA</szExternalID>
+      <dTaTotalDiscounted>-1.65</dTaTotalDiscounted>
+      <ARTICLE>
+        <szExternalID Type="202">REEMA</szExternalID>
+        <szItemID>986087</szItemID>
+        <bDiscountFlag>-1</bDiscountFlag>
+        <szMerchHierarchyLevelCode>0000</szMerchHierarchyLevelCode>
+        <szPOSDepartmentID>001022002</szPOSDepartmentID>
+        <szTypeCode>HAWA</szTypeCode>
+        <szPieceUnitOfMeasureCode>ST</szPieceUnitOfMeasureCode>
+        <szItemCategoryTypeCode>0</szItemCategoryTypeCode>
+        <szItemTaxGroupID>S2</szItemTaxGroupID>
+        <szPOSItemID>6291106122183</szPOSItemID>
+        <lRetailStoreID>2190</lRetailStoreID>
+        <szDesc>Reema Kash.Chilli Po</szDesc>
+        <szDesc1>Reema Kash.Chilli Powder 200g</szDesc1>
+        <szDesc2>ريما مسحوق فلفل حار كشميرى</szDesc2>
+        <szDescription>Reema Kash.Chilli Powder 200g</szDescription>
+        <dPackingUnitPriceAmount>8.2500</dPackingUnitPriceAmount>
+        <dPieceQuantity>1.0000</dPieceQuantity>
+        <szQuantityEntryUnitOfMeasure Type="202">EA</szQuantityEntryUnitOfMeasure>
+        <bOnStock>-1</bOnStock>
+        <bTotalDiscountAllowed>-1</bTotalDiscountAllowed>
+        <bBrandItemFlag>6</bBrandItemFlag>
+        <szPriceUnitOfMeasureName>EA</szPriceUnitOfMeasureName>
+        <dQtyArtLink>1.0000</dQtyArtLink>
+        <bVoidAllowed>-1</bVoidAllowed>
+        <lProdRangeStoreGroupID>2190</lProdRangeStoreGroupID>
+        <dPRPackingUnitPriceAmount>8.2500</dPRPackingUnitPriceAmount>
+        <szPRCampaignID>VKP0</szPRCampaignID>
+        <szPRDateValidFrom>20260107050000</szPRDateValidFrom>
+        <szPRDateValidTo>30000101045959</szPRDateValidTo>
+        <bProdRangeFound>-1</bProdRangeFound>
+        <dPackingUnitMaxRetailPrice Type="5">8.2500</dPackingUnitMaxRetailPrice>
+      </ARTICLE>
+    </ART_SALE>
+    <ITEM_MEDIA_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>16</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>251</lTaCreateNmbr>
+        <lTaSeqNmbr>43</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lRef2TaMediaRec>186</lRef2TaMediaRec>
+      <dAmount>6.60</dAmount>
+    </ITEM_MEDIA_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>16</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>227</lTaCreateNmbr>
+        <lTaSeqNmbr>44</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>30</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dDiscValue>20</dDiscValue>
+      <dTotalAmount>8.25</dTotalAmount>
+      <dTotalDiscount>-1.65</dTotalDiscount>
+      <szDiscDesc>Flat 20% Off</szDiscDesc>
+      <szDiscountID>336052</szDiscountID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <lSequenceID Type="202">1</lSequenceID>
+      <lArtRefNmbr>16</lArtRefNmbr>
+      <szArtDptNmbr>6291106122183</szArtDptNmbr>
+      <szGlobalCampaignID>ALNREEMA20%KUWAITAT</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>Discounts</szGlobalCampaignPosDesc>
+      <szDiscCategory>Discounts</szDiscCategory>
+      <szDiscSubCategory>Offer</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>16</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>226</lTaCreateNmbr>
+        <lTaSeqNmbr>45</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>15</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dTotalAmount>6.6</dTotalAmount>
+      <lDiscExtNmbr>15</lDiscExtNmbr>
+      <szAdditionalInformationID>dm_auto_000000000122</szAdditionalInformationID>
+      <szDiscDesc>PHILIPS/WAHL COUPON</szDiscDesc>
+      <szDiscMediaType>MSG</szDiscMediaType>
+      <szDiscountID>349030</szDiscountID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <lSequenceID Type="202">1</lSequenceID>
+      <lArtRefNmbr>16</lArtRefNmbr>
+      <szArtDptNmbr>6291106122183</szArtDptNmbr>
+      <lMessagePosition>3</lMessagePosition>
+      <lPresentation>60</lPresentation>
+      <szGlobalCampaignID>ALNPHILIPSCPNISSUE</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>Messages</szGlobalCampaignPosDesc>
+      <szDiscCategory>Messages</szDiscCategory>
+      <szDiscSubCategory>Offer</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>16</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>225</lTaCreateNmbr>
+        <lTaSeqNmbr>46</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>15</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dDiscValue>100</dDiscValue>
+      <dTotalAmount>6.60</dTotalAmount>
+      <dTotalDiscount>6.60</dTotalDiscount>
+      <lDiscExtNmbr>15</lDiscExtNmbr>
+      <szDiscDesc>Happiness Points</szDiscDesc>
+      <szDiscMediaType>PTS</szDiscMediaType>
+      <szDiscountID>75786</szDiscountID>
+      <szDiscMediaID>loyaltyPointsMediaId</szDiscMediaID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <lSequenceID Type="202">1</lSequenceID>
+      <lArtRefNmbr>16</lArtRefNmbr>
+      <bIndirect>-1</bIndirect>
+      <szArtDptNmbr>6291106122183</szArtDptNmbr>
+      <dExchangeratePts Type="5">1</dExchangeratePts>
+      <szGlobalCampaignID>Happiness Earn Points</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>HAPPINESS EARNED</szGlobalCampaignPosDesc>
+      <szDiscCategory>HAPPINESS EARNED</szDiscCategory>
+      <szDiscSubCategory>Loyalty</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <TAX_ART>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>16</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>56</lTaCreateNmbr>
+        <lTaSeqNmbr>47</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <dUsedTotalSale>6.2857142857142857142857142857</dUsedTotalSale>
+      <dIncludedTaxValue>0.31</dIncludedTaxValue>
+      <dIncludedExactTaxValue>0.3142857142857142857142857143</dIncludedExactTaxValue>
+      <dTotalSale>6.60</dTotalSale>
+      <dUsedTotalSaleRounded>6.29</dUsedTotalSaleRounded>
+      <TAX>
+        <bTaxRefundable>1</bTaxRefundable>
+        <szRateRuleEffectiveDate>20070101</szRateRuleEffectiveDate>
+        <szRateRuleEffectiveTime>000000</szRateRuleEffectiveTime>
+        <szRateRuleExpirationDate>20900101</szRateRuleExpirationDate>
+        <szRateRuleExpirationTime>070000</szRateRuleExpirationTime>
+        <szTaxGroupID>S2</szTaxGroupID>
+        <lManualSequenceNumber>1</lManualSequenceNumber>
+        <szTaxAuthorityID>Mof</szTaxAuthorityID>
+        <szTaxAuthorityName>Ministry of Finance</szTaxAuthorityName>
+        <lRoundingDigitsQuantity>2</lRoundingDigitsQuantity>
+        <szTaxGroupRuleName>AE Output VAT 5%</szTaxGroupRuleName>
+        <bTaxIncluded>-1</bTaxIncluded>
+        <dTaxablePercent>100.0000</dTaxablePercent>
+        <lTaxRateRuleManualSequenceNumber>1</lTaxRateRuleManualSequenceNumber>
+        <dPercent>5.0000</dPercent>
+        <szReceiptPrintCode>S2</szReceiptPrintCode>
+        <bStartMinimum>-1</bStartMinimum>
+        <szTaxStoreLocationID>AE</szTaxStoreLocationID>
+      </TAX>
+    </TAX_ART>
+    <ART_SALE>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>19</lTaCreateNmbr>
+        <lTaSeqNmbr>48</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <FlagForExtWarrantyItem>N</FlagForExtWarrantyItem>
+      <dTaQty>1</dTaQty>
+      <szItemLookupCode>2014224025266</szItemLookupCode>
+      <lDevice>101</lDevice>
+      <dQuantityEntry>1</dQuantityEntry>
+      <lOPTRCount>1</lOPTRCount>
+      <dQtyOPTRCount>1</dQtyOPTRCount>
+      <szInputString>2014224025266</szInputString>
+      <dTaTotal>23.5</dTaTotal>
+      <szWeightInfo>1EA</szWeightInfo>
+      <lChannelID>1</lChannelID>
+      <lTaPriceInfo>6</lTaPriceInfo>
+      <dTaPrice>23.5000</dTaPrice>
+      <szPrintCodes>S2 </szPrintCodes>
+      <lTadiscountflag>15</lTadiscountflag>
+      <dUsedTotalSale>22.380952380952380952380952381</dUsedTotalSale>
+      <szExternalID>PHAROES</szExternalID>
+      <ARTICLE>
+        <szExternalID Type="202">PHAROES</szExternalID>
+        <szItemID>855497</szItemID>
+        <bDiscountFlag>-1</bDiscountFlag>
+        <szMerchHierarchyLevelCode>0000</szMerchHierarchyLevelCode>
+        <szPOSDepartmentID>001023004</szPOSDepartmentID>
+        <szTypeCode>HAWA</szTypeCode>
+        <szPieceUnitOfMeasureCode>ST</szPieceUnitOfMeasureCode>
+        <szItemCategoryTypeCode>0000400001</szItemCategoryTypeCode>
+        <szItemTaxGroupID>S2</szItemTaxGroupID>
+        <szPOSItemID>2014224025266</szPOSItemID>
+        <lRetailStoreID>2190</lRetailStoreID>
+        <szDesc>Pharoes Egyptian Ric</szDesc>
+        <szDesc1>Pharoes Egyptian Rice 5kg PO</szDesc1>
+        <szDesc2>الفراعنة أرز مصرى</szDesc2>
+        <szDescription>Pharoes Egyptian Rice 5kg PO</szDescription>
+        <dPieceQuantity>1.0000</dPieceQuantity>
+        <szQuantityEntryUnitOfMeasure Type="202">EA</szQuantityEntryUnitOfMeasure>
+        <bTotalDiscountAllowed>-1</bTotalDiscountAllowed>
+        <bBrandItemFlag>6</bBrandItemFlag>
+        <szPriceUnitOfMeasureName>EA</szPriceUnitOfMeasureName>
+        <dQtyArtLink>1.0000</dQtyArtLink>
+        <bVoidAllowed>-1</bVoidAllowed>
+        <lProdRangeStoreGroupID>2190</lProdRangeStoreGroupID>
+        <dPRPackingUnitPriceAmount>23.5000</dPRPackingUnitPriceAmount>
+        <szPRCampaignID>0200831833</szPRCampaignID>
+        <szPRDateValidFrom>20260107050000</szPRDateValidFrom>
+        <szPRDateValidTo>20260110045959</szPRDateValidTo>
+        <bProdRangeFound>-1</bProdRangeFound>
+        <szDesc1Promo Type="202">*</szDesc1Promo>
+      </ARTICLE>
+    </ART_SALE>
+    <ITEM_MEDIA_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>19</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>248</lTaCreateNmbr>
+        <lTaSeqNmbr>49</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lRef2TaMediaRec>186</lRef2TaMediaRec>
+      <dAmount>23.5</dAmount>
+    </ITEM_MEDIA_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>19</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>224</lTaCreateNmbr>
+        <lTaSeqNmbr>50</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>15</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dTotalAmount>23.5</dTotalAmount>
+      <lDiscExtNmbr>15</lDiscExtNmbr>
+      <szAdditionalInformationID>dm_auto_000000000122</szAdditionalInformationID>
+      <szDiscDesc>PHILIPS/WAHL COUPON</szDiscDesc>
+      <szDiscMediaType>MSG</szDiscMediaType>
+      <szDiscountID>349030</szDiscountID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <lSequenceID Type="202">1</lSequenceID>
+      <lArtRefNmbr>19</lArtRefNmbr>
+      <szArtDptNmbr>2014224025266</szArtDptNmbr>
+      <lMessagePosition>3</lMessagePosition>
+      <lPresentation>60</lPresentation>
+      <szGlobalCampaignID>ALNPHILIPSCPNISSUE</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>Messages</szGlobalCampaignPosDesc>
+      <szDiscCategory>Messages</szDiscCategory>
+      <szDiscSubCategory>Offer</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>19</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>223</lTaCreateNmbr>
+        <lTaSeqNmbr>51</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>15</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dDiscValue>100</dDiscValue>
+      <dTotalAmount>23.5</dTotalAmount>
+      <dTotalDiscount>23.5</dTotalDiscount>
+      <lDiscExtNmbr>15</lDiscExtNmbr>
+      <szDiscDesc>Happiness Points</szDiscDesc>
+      <szDiscMediaType>PTS</szDiscMediaType>
+      <szDiscountID>75786</szDiscountID>
+      <szDiscMediaID>loyaltyPointsMediaId</szDiscMediaID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <lSequenceID Type="202">1</lSequenceID>
+      <lArtRefNmbr>19</lArtRefNmbr>
+      <bIndirect>-1</bIndirect>
+      <szArtDptNmbr>2014224025266</szArtDptNmbr>
+      <dExchangeratePts Type="5">1</dExchangeratePts>
+      <szGlobalCampaignID>Happiness Earn Points</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>HAPPINESS EARNED</szGlobalCampaignPosDesc>
+      <szDiscCategory>HAPPINESS EARNED</szDiscCategory>
+      <szDiscSubCategory>Loyalty</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <TAX_ART>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>19</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>55</lTaCreateNmbr>
+        <lTaSeqNmbr>52</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <dUsedTotalSale>22.380952380952380952380952381</dUsedTotalSale>
+      <dIncludedTaxValue>1.12</dIncludedTaxValue>
+      <dIncludedExactTaxValue>1.119047619047619047619047619</dIncludedExactTaxValue>
+      <dTotalSale>23.5</dTotalSale>
+      <dUsedTotalSaleRounded>22.38</dUsedTotalSaleRounded>
+      <TAX>
+        <bTaxRefundable>1</bTaxRefundable>
+        <szRateRuleEffectiveDate>20070101</szRateRuleEffectiveDate>
+        <szRateRuleEffectiveTime>000000</szRateRuleEffectiveTime>
+        <szRateRuleExpirationDate>20900101</szRateRuleExpirationDate>
+        <szRateRuleExpirationTime>070000</szRateRuleExpirationTime>
+        <szTaxGroupID>S2</szTaxGroupID>
+        <lManualSequenceNumber>1</lManualSequenceNumber>
+        <szTaxAuthorityID>Mof</szTaxAuthorityID>
+        <szTaxAuthorityName>Ministry of Finance</szTaxAuthorityName>
+        <lRoundingDigitsQuantity>2</lRoundingDigitsQuantity>
+        <szTaxGroupRuleName>AE Output VAT 5%</szTaxGroupRuleName>
+        <bTaxIncluded>-1</bTaxIncluded>
+        <dTaxablePercent>100.0000</dTaxablePercent>
+        <lTaxRateRuleManualSequenceNumber>1</lTaxRateRuleManualSequenceNumber>
+        <dPercent>5.0000</dPercent>
+        <szReceiptPrintCode>S2</szReceiptPrintCode>
+        <bStartMinimum>-1</bStartMinimum>
+        <szTaxStoreLocationID>AE</szTaxStoreLocationID>
+      </TAX>
+    </TAX_ART>
+    <ART_SALE>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>22</lTaCreateNmbr>
+        <lTaSeqNmbr>53</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <FlagForExtWarrantyItem>N</FlagForExtWarrantyItem>
+      <dTaQty>1</dTaQty>
+      <dTaPrice>0.5000</dTaPrice>
+      <szItemLookupCode>2200011607030</szItemLookupCode>
+      <lDevice>101</lDevice>
+      <dQuantityEntry>1</dQuantityEntry>
+      <lOPTRCount>1</lOPTRCount>
+      <dQtyOPTRCount>1</dQtyOPTRCount>
+      <szInputString>2200011607030</szInputString>
+      <dTaTotal>0.5</dTaTotal>
+      <szWeightInfo>1EA</szWeightInfo>
+      <lChannelID>1</lChannelID>
+      <lTaPriceInfo>6</lTaPriceInfo>
+      <szPrintCodes>S2 </szPrintCodes>
+      <lTadiscountflag>15</lTadiscountflag>
+      <dUsedTotalSale>0.4761904761904761904761904762</dUsedTotalSale>
+      <szExternalID>LULU DS</szExternalID>
+      <ARTICLE>
+        <szExternalID Type="202">LULU DS</szExternalID>
+        <szItemID>1977302</szItemID>
+        <bDiscountFlag>-1</bDiscountFlag>
+        <szMerchHierarchyLevelCode>0000</szMerchHierarchyLevelCode>
+        <szPOSDepartmentID>002014001</szPOSDepartmentID>
+        <szTypeCode>HAWA</szTypeCode>
+        <szPieceUnitOfMeasureCode>ST</szPieceUnitOfMeasureCode>
+        <szItemCategoryTypeCode>0</szItemCategoryTypeCode>
+        <szItemTaxGroupID>S2</szItemTaxGroupID>
+        <szPOSItemID>2200011607030</szPOSItemID>
+        <lRetailStoreID>2190</lRetailStoreID>
+        <szDesc>HD Supermarket Bag</szDesc>
+        <szDesc1>HD Supermarket Bag</szDesc1>
+        <szDesc2>حقيبة تسوق لولو عالية التحمل</szDesc2>
+        <szDescription>HD Supermarket Bag</szDescription>
+        <dPackingUnitPriceAmount>0.5000</dPackingUnitPriceAmount>
+        <dPieceQuantity>1.0000</dPieceQuantity>
+        <szQuantityEntryUnitOfMeasure Type="202">EA</szQuantityEntryUnitOfMeasure>
+        <bTotalDiscountAllowed>-1</bTotalDiscountAllowed>
+        <bBrandItemFlag>6</bBrandItemFlag>
+        <szPriceUnitOfMeasureName>EA</szPriceUnitOfMeasureName>
+        <dQtyArtLink>1.0000</dQtyArtLink>
+        <bVoidAllowed>-1</bVoidAllowed>
+        <lProdRangeStoreGroupID>2190</lProdRangeStoreGroupID>
+        <dPRPackingUnitPriceAmount>0.5000</dPRPackingUnitPriceAmount>
+        <szPRCampaignID>VKP0</szPRCampaignID>
+        <szPRDateValidFrom>20251123050000</szPRDateValidFrom>
+        <szPRDateValidTo>30000101045959</szPRDateValidTo>
+        <bProdRangeFound>-1</bProdRangeFound>
+        <dPackingUnitMaxRetailPrice Type="5">0.5000</dPackingUnitMaxRetailPrice>
+      </ARTICLE>
+    </ART_SALE>
+    <ITEM_MEDIA_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>22</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>254</lTaCreateNmbr>
+        <lTaSeqNmbr>54</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lRef2TaMediaRec>186</lRef2TaMediaRec>
+      <dAmount>0.5</dAmount>
+    </ITEM_MEDIA_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>22</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>222</lTaCreateNmbr>
+        <lTaSeqNmbr>55</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>15</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dTotalAmount>0.5</dTotalAmount>
+      <lDiscExtNmbr>15</lDiscExtNmbr>
+      <szAdditionalInformationID>dm_auto_000000000122</szAdditionalInformationID>
+      <szDiscDesc>PHILIPS/WAHL COUPON</szDiscDesc>
+      <szDiscMediaType>MSG</szDiscMediaType>
+      <szDiscountID>349030</szDiscountID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <lSequenceID Type="202">1</lSequenceID>
+      <lArtRefNmbr>22</lArtRefNmbr>
+      <szArtDptNmbr>2200011607030</szArtDptNmbr>
+      <lMessagePosition>3</lMessagePosition>
+      <lPresentation>60</lPresentation>
+      <szGlobalCampaignID>ALNPHILIPSCPNISSUE</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>Messages</szGlobalCampaignPosDesc>
+      <szDiscCategory>Messages</szDiscCategory>
+      <szDiscSubCategory>Offer</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>22</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>221</lTaCreateNmbr>
+        <lTaSeqNmbr>56</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>15</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dDiscValue>100</dDiscValue>
+      <dTotalAmount>0.5</dTotalAmount>
+      <dTotalDiscount>0.5</dTotalDiscount>
+      <lDiscExtNmbr>15</lDiscExtNmbr>
+      <szDiscDesc>Happiness Points</szDiscDesc>
+      <szDiscMediaType>PTS</szDiscMediaType>
+      <szDiscountID>75786</szDiscountID>
+      <szDiscMediaID>loyaltyPointsMediaId</szDiscMediaID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <lSequenceID Type="202">1</lSequenceID>
+      <lArtRefNmbr>22</lArtRefNmbr>
+      <bIndirect>-1</bIndirect>
+      <szArtDptNmbr>2200011607030</szArtDptNmbr>
+      <dExchangeratePts Type="5">1</dExchangeratePts>
+      <szGlobalCampaignID>Happiness Earn Points</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>HAPPINESS EARNED</szGlobalCampaignPosDesc>
+      <szDiscCategory>HAPPINESS EARNED</szDiscCategory>
+      <szDiscSubCategory>Loyalty</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <TAX_ART>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>22</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>54</lTaCreateNmbr>
+        <lTaSeqNmbr>57</lTaSeqNmbr>
+        <szTaRefTaObject>ART_SALE</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <dUsedTotalSale>0.4761904761904761904761904762</dUsedTotalSale>
+      <dIncludedTaxValue>0.02</dIncludedTaxValue>
+      <dIncludedExactTaxValue>0.0238095238095238095238095238</dIncludedExactTaxValue>
+      <dTotalSale>0.5</dTotalSale>
+      <dUsedTotalSaleRounded>0.48</dUsedTotalSaleRounded>
+      <TAX>
+        <bTaxRefundable>1</bTaxRefundable>
+        <szRateRuleEffectiveDate>20070101</szRateRuleEffectiveDate>
+        <szRateRuleEffectiveTime>000000</szRateRuleEffectiveTime>
+        <szRateRuleExpirationDate>20900101</szRateRuleExpirationDate>
+        <szRateRuleExpirationTime>070000</szRateRuleExpirationTime>
+        <szTaxGroupID>S2</szTaxGroupID>
+        <lManualSequenceNumber>1</lManualSequenceNumber>
+        <szTaxAuthorityID>Mof</szTaxAuthorityID>
+        <szTaxAuthorityName>Ministry of Finance</szTaxAuthorityName>
+        <lRoundingDigitsQuantity>2</lRoundingDigitsQuantity>
+        <szTaxGroupRuleName>AE Output VAT 5%</szTaxGroupRuleName>
+        <bTaxIncluded>-1</bTaxIncluded>
+        <dTaxablePercent>100.0000</dTaxablePercent>
+        <lTaxRateRuleManualSequenceNumber>1</lTaxRateRuleManualSequenceNumber>
+        <dPercent>5.0000</dPercent>
+        <szReceiptPrintCode>S2</szReceiptPrintCode>
+        <bStartMinimum>-1</bStartMinimum>
+        <szTaxStoreLocationID>AE</szTaxStoreLocationID>
+      </TAX>
+    </TAX_ART>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>243</lTaCreateNmbr>
+        <lTaSeqNmbr>58</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>6</lDiscListType>
+      <dDiscQty>1</dDiscQty>
+      <dTotalAmount>191.95</dTotalAmount>
+      <lDiscExtNmbr>19</lDiscExtNmbr>
+      <szDiscDesc>PHILIPS/WAHL COUPON</szDiscDesc>
+      <szDiscMediaType>MSG</szDiscMediaType>
+      <szDiscountID>349030</szDiscountID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <szGlobalCampaignID>ALNPHILIPSCPNISSUE</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>Messages</szGlobalCampaignPosDesc>
+      <szDiscCategory>Messages</szDiscCategory>
+      <szDiscSubCategory>Offer</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <DISC_INFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>242</lTaCreateNmbr>
+        <lTaSeqNmbr>59</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lDiscListType>6</lDiscListType>
+      <dDiscQty>19195</dDiscQty>
+      <dDiscValue>100</dDiscValue>
+      <dTotalAmount>191.95</dTotalAmount>
+      <dTotalDiscount>191.95</dTotalDiscount>
+      <lDiscExtNmbr>18</lDiscExtNmbr>
+      <szDiscDesc>Happiness Points</szDiscDesc>
+      <szDiscMediaType>PTS</szDiscMediaType>
+      <szDiscountID>75786</szDiscountID>
+      <szDiscMediaID>loyaltyPointsMediaId</szDiscMediaID>
+      <szDiscountType>MxMV3</szDiscountType>
+      <szDiscValueType>%</szDiscValueType>
+      <bIndirect>-1</bIndirect>
+      <dExchangeratePts Type="5">1</dExchangeratePts>
+      <szGlobalCampaignID>Happiness Earn Points</szGlobalCampaignID>
+      <szGlobalCampaignPosDesc>HAPPINESS EARNED</szGlobalCampaignPosDesc>
+      <szDiscCategory>HAPPINESS EARNED</szDiscCategory>
+      <szDiscSubCategory>Loyalty</szDiscSubCategory>
+      <szCustomerID>10276741</szCustomerID>
+      <lOrgRetailStoreID>2190</lOrgRetailStoreID>
+      <lOrgWorkstationNmbr>9</lOrgWorkstationNmbr>
+      <lOrgTaNmbr>45753</lOrgTaNmbr>
+      <szOrgCreatedDate>20260109100257</szOrgCreatedDate>
+    </DISC_INFO>
+    <TOTAL>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>64</lTaCreateNmbr>
+        <lTaSeqNmbr>60</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <szDate>20260109100530</szDate>
+      <dTotalSale>191.95</dTotalSale>
+      <dTotalInEuro>53.62</dTotalInEuro>
+      <dTotalNet>182.81</dTotalNet>
+      <lNmbrOfItems>10</lNmbrOfItems>
+      <bHasDiscCustMsg Type="202">Y</bHasDiscCustMsg>
+      <dCustDiscValue Type="5">1.65</dCustDiscValue>
+      <szCustomLine Type="202">----------------------------------------</szCustomLine>
+      <szCustDiscDesc Type="202">**</szCustDiscDesc>
+      <szCustDiscDesc2 Type="202">**</szCustDiscDesc2>
+      <szCustDiscDesc3 Type="202">AED 1.65</szCustDiscDesc3>
+      <szAmountInWord>One Hundred Ninety-One And Ninety-Five Only.</szAmountInWord>
+    </TOTAL>
+    <LOYALTY>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>26</lTaCreateNmbr>
+        <lTaSeqNmbr>61</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <ObjectIdentification>TPDotnet.Pos.taproj.TaLoyalty</ObjectIdentification>
+      <szCardID>1785100023011197</szCardID>
+      <szSegmentID_0 Type="202">12</szSegmentID_0>
+      <szSegmentID_1 Type="202">19</szSegmentID_1>
+      <szSegmentID_2 Type="202">17</szSegmentID_2>
+      <szSegmentID_3 Type="202">18</szSegmentID_3>
+      <lNmbrOfSegments>4</lNmbrOfSegments>
+    </LOYALTY>
+    <MEDIA>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>88</lTaCreateNmbr>
+        <lTaSeqNmbr>62</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <szDate>20260109100539</szDate>
+      <bCountAsPayment>-1</bCountAsPayment>
+      <dTaQty>1</dTaQty>
+      <dPaidForeignCurr>102.1000</dPaidForeignCurr>
+      <dPaidForeignCurrTotal>102.1000</dPaidForeignCurrTotal>
+      <dTaPaid>102.1</dTaPaid>
+      <dTaPaidTotal>102.1</dTaPaidTotal>
+      <szSerialNmbr>021900003604596200070260109</szSerialNmbr>
+      <szBarcode>880219000036045962000702601094</szBarcode>
+      <szVoucherSerialNumber Type="202">021900003604596200070260109</szVoucherSerialNumber>
+      <PAYMENT>
+        <lMediaNmbr>17</lMediaNmbr>
+        <lMediaMember>26</lMediaMember>
+        <lRetailStoreID>2190</lRetailStoreID>
+        <lPayType>6</lPayType>
+        <lPaySDOC>1</lPaySDOC>
+        <lPayDecNmbr>2</lPayDecNmbr>
+        <szPayCurrSym>AED</szPayCurrSym>
+        <dPayExchRate>1.000000</dPayExchRate>
+        <dPayLocal>1.0000</dPayLocal>
+        <dPayForeign>1.0000</dPayForeign>
+        <szDesc>Exchange Voucher Red</szDesc>
+        <bPayOverpaid>-1</bPayOverpaid>
+        <szSerializeTypeCode>WS</szSerializeTypeCode>
+        <bChangeAllowed>-1</bChangeAllowed>
+        <bChangeAuto>-1</bChangeAuto>
+        <lChangeMediaMember>20</lChangeMediaMember>
+        <szOpenCashDrawerTypeCode>NO</szOpenCashDrawerTypeCode>
+        <bVoidAllowed>-1</bVoidAllowed>
+        <bReceiptVoidAllowed>-1</bReceiptVoidAllowed>
+        <szPOSCountingType>AMT</szPOSCountingType>
+        <bPayAllowed>-1</bPayAllowed>
+        <lValidationEnd>90</lValidationEnd>
+        <szExternalID>Exchange Voucher Red</szExternalID>
+        <szSpecialUsageVoidReceipt>NO</szSpecialUsageVoidReceipt>
+        <szWebServiceTypeID>EXCHANGE</szWebServiceTypeID>
+        <bChangeAllowedInCR>-1</bChangeAllowedInCR>
+        <szPosLogExternalID>Exchange Voucher Red</szPosLogExternalID>
+        <szHostMediaType>PTER</szHostMediaType>
+        <lTxnType>0</lTxnType>
+        <szPayDesc>WS Voucher Red</szPayDesc>
+        <szPrintCode>AED</szPrintCode>
+        <szPayCurrSymLC>AED</szPayCurrSymLC>
+        <szPrintCodeLC>AED</szPrintCodeLC>
+      </PAYMENT>
+    </MEDIA>
+    <SERIALIZED>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaRefToCreateNmbr>88</lTaRefToCreateNmbr>
+        <lTaCreateNmbr>89</lTaCreateNmbr>
+        <lTaSeqNmbr>63</lTaSeqNmbr>
+        <szTaRefTaObject>MEDIA</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lPresentation>1</lPresentation>
+      <szCustomerID>10276741</szCustomerID>
+      <lMediaMember>26</lMediaMember>
+      <lMediaNmbr>17</lMediaNmbr>
+      <szSerialNmbr>021900003604596200070260109</szSerialNmbr>
+      <szDateValidFrom>20260109</szDateValidFrom>
+      <szDateValidTo>20260208</szDateValidTo>
+      <dAmount>102.1</dAmount>
+      <dPayExchRate>1.000000</dPayExchRate>
+      <dAmountForeign>102.1000</dAmountForeign>
+      <szSerializeTypeCode>WS</szSerializeTypeCode>
+      <szTypeCode>MediaMember</szTypeCode>
+      <szStatus>REDEEMED</szStatus>
+      <lOperatorID>1467647</lOperatorID>
+    </SERIALIZED>
+    <MEDIA>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>186</lTaCreateNmbr>
+        <lTaSeqNmbr>64</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <szDate>20260109100551</szDate>
+      <bCountAsPayment>-1</bCountAsPayment>
+      <dTaQty>1</dTaQty>
+      <dPaidForeignCurr>89.85</dPaidForeignCurr>
+      <dPaidForeignCurrTotal>89.85</dPaidForeignCurrTotal>
+      <dTaPaid>89.85</dTaPaid>
+      <dTaPaidTotal>89.85</dTaPaidTotal>
+      <szCardNmbr>478404******5282</szCardNmbr>
+      <szCardCircuit>VISA</szCardCircuit>
+      <szBankNmbr>00/unknown</szBankNmbr>
+      <lSeqNmbr>45753</lSeqNmbr>
+      <szSTAN>612404</szSTAN>
+      <szCardBin Type="202">478404</szCardBin>
+      <szMerchant>001117915595</szMerchant>
+      <szAcquirerID>Visa CREDIT</szAcquirerID>
+      <szTerminalID>10425183</szTerminalID>
+      <szTimeStamp>2026-01-09T10:05:52.2296441+04:00</szTimeStamp>
+      <szApprovalCode>612404</szApprovalCode>
+      <szAutorisationType>Online</szAutorisationType>
+      <szReceiptNumber>45753</szReceiptNumber>
+      <szCaptureReference>2677B20011FD3FF1</szCaptureReference>
+      <szCurrency>AED</szCurrency>
+      <bIsDCCTrans Type="202">N</bIsDCCTrans>
+      <PAYMENT>
+        <lMediaNmbr>11</lMediaNmbr>
+        <lMediaMember>12</lMediaMember>
+        <lRetailStoreID>2190</lRetailStoreID>
+        <lPayType>4</lPayType>
+        <lPaySDOC>1</lPaySDOC>
+        <lPayDecNmbr>2</lPayDecNmbr>
+        <szPayCurrSym>AED</szPayCurrSym>
+        <dPayExchRate>1.000000</dPayExchRate>
+        <dPayLocal>1.0000</dPayLocal>
+        <dPayForeign>1.0000</dPayForeign>
+        <szDesc>VISA</szDesc>
+        <szSerializeTypeCode>NO</szSerializeTypeCode>
+        <szOpenCashDrawerTypeCode>NO</szOpenCashDrawerTypeCode>
+        <szPOSCountingType>AMT</szPOSCountingType>
+        <bPayAllowed>-1</bPayAllowed>
+        <lValidationEnd>90</lValidationEnd>
+        <szExternalID>VISA</szExternalID>
+        <szSpecialUsageVoidReceipt>NO</szSpecialUsageVoidReceipt>
+        <szPosLogExternalID>VISA</szPosLogExternalID>
+        <szHostMediaType>PTVI</szHostMediaType>
+        <lTxnType>0</lTxnType>
+        <lTxnSubType>eposSale</lTxnSubType>
+        <szPayDesc>Credit Card Online</szPayDesc>
+        <szPrintCode>AED</szPrintCode>
+        <szPayCurrSymLC>AED</szPayCurrSymLC>
+        <szPrintCodeLC>AED</szPrintCodeLC>
+      </PAYMENT>
+    </MEDIA>
+    <EFTINFO>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>220</lTaCreateNmbr>
+        <lTaRefToCreateNmbr>186</lTaRefToCreateNmbr>
+        <lTaSeqNmbr>65</lTaSeqNmbr>
+        <szTaRefTaObject>MEDIA</szTaRefTaObject>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <lPresentation>1</lPresentation>
+      <lShowReceiptLineOnPosReceipt>1</lShowReceiptLineOnPosReceipt>
+      <lShowInfoLineOnPosReceipt>1</lShowInfoLineOnPosReceipt>
+    </EFTINFO>
+    <TAX_INCLUDED>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>255</lTaCreateNmbr>
+        <lTaSeqNmbr>66</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <dIncludedExactTaxValue>9.140476190476190476190476191</dIncludedExactTaxValue>
+      <dIncludedTaxValue>9.14</dIncludedTaxValue>
+      <dTotalSale>191.95</dTotalSale>
+      <dUsedTotalSale>182.80952380952380952380952382</dUsedTotalSale>
+      <dTotalNet>191.95</dTotalNet>
+      <dUsedTotalSaleRounded Type="5">182.81</dUsedTotalSaleRounded>
+      <TAX>
+        <bTaxRefundable>1</bTaxRefundable>
+        <szRateRuleEffectiveDate>20070101</szRateRuleEffectiveDate>
+        <szRateRuleEffectiveTime>000000</szRateRuleEffectiveTime>
+        <szRateRuleExpirationDate>20900101</szRateRuleExpirationDate>
+        <szRateRuleExpirationTime>070000</szRateRuleExpirationTime>
+        <szTaxGroupID>S2</szTaxGroupID>
+        <lManualSequenceNumber>1</lManualSequenceNumber>
+        <szTaxAuthorityID>Mof</szTaxAuthorityID>
+        <szTaxAuthorityName>Ministry of Finance</szTaxAuthorityName>
+        <lRoundingDigitsQuantity>2</lRoundingDigitsQuantity>
+        <szTaxGroupRuleName>AE Output VAT 5%</szTaxGroupRuleName>
+        <bTaxIncluded>-1</bTaxIncluded>
+        <dTaxablePercent>100.0000</dTaxablePercent>
+        <lTaxRateRuleManualSequenceNumber>1</lTaxRateRuleManualSequenceNumber>
+        <dPercent>5.0000</dPercent>
+        <szReceiptPrintCode>S2</szReceiptPrintCode>
+        <bStartMinimum>-1</bStartMinimum>
+        <szTaxStoreLocationID>AE</szTaxStoreLocationID>
+      </TAX>
+    </TAX_INCLUDED>
+    <TAX_TOTAL>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>257</lTaCreateNmbr>
+        <lTaSeqNmbr>67</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <dTotalWOTax>182.80952380952380952380952382</dTotalWOTax>
+      <dTotalTax>9.14</dTotalTax>
+      <dTotalExactTax>9.140476190476190476190476191</dTotalExactTax>
+      <dTotalWTax>191.95</dTotalWTax>
+      <dUsedTotalSaleRounded>182.81</dUsedTotalSaleRounded>
+      <lCntTaxGroup>1</lCntTaxGroup>
+    </TAX_TOTAL>
+    <EMPLFILES>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>258</lTaCreateNmbr>
+        <lTaSeqNmbr>68</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <UpdateEmplFiles>
+        <UpdateInsert>
+          <Table>EMPLMOVEEXT</Table>
+          <Set>
+            <lMediaNmbr>11</lMediaNmbr>
+            <lMediaMember>12</lMediaMember>
+            <lOperatorID>1467647</lOperatorID>
+            <szSessionID>2190:9:45740:1467647:20260109</szSessionID>
+            <lWorkstationNmbr>9</lWorkstationNmbr>
+            <lTaNmbr>45753</lTaNmbr>
+            <szDate>20260109</szDate>
+            <szTime>100616</szTime>
+            <szMode>ServerMode</szMode>
+            <szMediaDesc>VISA</szMediaDesc>
+            <lCntPay>4</lCntPay>
+            <dValPay> 375.9500</dValPay>
+            <szBusinessDate>20260109</szBusinessDate>
+          </Set>
+        </UpdateInsert>
+        <UpdateInsert>
+          <Table>EMPLMOVEEXT</Table>
+          <Set>
+            <lMediaNmbr>17</lMediaNmbr>
+            <lMediaMember>26</lMediaMember>
+            <lOperatorID>1467647</lOperatorID>
+            <szSessionID>2190:9:45740:1467647:20260109</szSessionID>
+            <lWorkstationNmbr>9</lWorkstationNmbr>
+            <lTaNmbr>45753</lTaNmbr>
+            <szDate>20260109</szDate>
+            <szTime>100616</szTime>
+            <szMode>ServerMode</szMode>
+            <szMediaDesc>Exchange Voucher Red</szMediaDesc>
+            <lCntPay>1</lCntPay>
+            <dValPay> 102.1000</dValPay>
+            <szBusinessDate>20260109</szBusinessDate>
+          </Set>
+        </UpdateInsert>
+      </UpdateEmplFiles>
+    </EMPLFILES>
+    <FOOTER>
+      <Hdr>
+        <bTaValid>1</bTaValid>
+        <lTaCreateNmbr>256</lTaCreateNmbr>
+        <lTaSeqNmbr>69</lTaSeqNmbr>
+        <lTaCreatedChannelID>1</lTaCreatedChannelID>
+        <lTaCreatedRetailStoreID>2190</lTaCreatedRetailStoreID>
+        <szTaCreatedWorkstationGroupID>Checkouts</szTaCreatedWorkstationGroupID>
+        <szTaCreatedWorkstationID>2190VCO09</szTaCreatedWorkstationID>
+        <szTaCreatedSubWorkstationID>2190VCO09</szTaCreatedSubWorkstationID>
+        <lTaCreatedTaNmbr>45753</lTaCreatedTaNmbr>
+        <szTaCreatedDate>20260109100257</szTaCreatedDate>
+        <lTaCreatedWorkstationNmbr>9</lTaCreatedWorkstationNmbr>
+        <lTaCreatedOperatorID>1467647</lTaCreatedOperatorID>
+        <szTaCreatedEmplName>Amrita Ghale Kul Bahadur</szTaCreatedEmplName>
+      </Hdr>
+      <szDate>20260109100612</szDate>
+      <szUTCDate>20260109060612</szUTCDate>
+      <szTaDomain>POS</szTaDomain>
+      <szTaType>SA</szTaType>
+      <szTaOperationType>SALE</szTaOperationType>
+      <szInfo>0</szInfo>
+      <bNotPrinted>-1</bNotPrinted>
+      <lClientID>1</lClientID>
+      <szExternalClientID>AE</szExternalClientID>
+      <szClientName>UAE</szClientName>
+      <szMode>SERVERMODE</szMode>
+      <szSessionID>2190:9:45740:1467647:20260109</szSessionID>
+      <szFooterLine1>Keep bill for Exchange within 7 Days</szFooterLine1>
+      <szFooterLine2>Valid only at issued store.*T&amp;C Apply</szFooterLine2>
+      <szFooterLine3>Thank you for shopping</szFooterLine3>
+      <szFooterLine4>Shop online at www.luluhypermarket.com</szFooterLine4>
+      <szFooterLine5>Please carry reusable bags for shopping</szFooterLine5>
+      <szFooterLine6 Type="202">حمل أكياس قابلة لإعادة الاستخدام للتسوق</szFooterLine6>
+      <szFooterLine7 Type="202">----------------------------------------</szFooterLine7>
+      <szDescription Type="202">UAE Checkouts</szDescription>
+      <szBarcodeComplete>662190009004575320260109100257</szBarcodeComplete>
+      <szCompanyTaxNmbr>100228723100003</szCompanyTaxNmbr>
+      <lChannelID>1</lChannelID>
+      <szExternalID>2190</szExternalID>
+      <szAlpha2Code>AE</szAlpha2Code>
+      <szExternalChannelID>Sales</szExternalChannelID>
+      <szBusinessDate>20260109</szBusinessDate>
+      <lTaNmbr>45753</lTaNmbr>
+      <lWorkstationNmbr>9</lWorkstationNmbr>
+      <lRetailStoreID>2190</lRetailStoreID>
+      <lReceiptNmbr>45753</lReceiptNmbr>
+      <szEmplName>Amrita Ghale Kul Bahadur</szEmplName>
+      <lOperatorID>1467647</lOperatorID>
+      <szSignOnName>1467647</szSignOnName>
+      <szPrintOption>TR</szPrintOption>
+      <bPrintExchangeVoucher>0</bPrintExchangeVoucher>
+      <bPrintWarrentyInvoice>0</bPrintWarrentyInvoice>
+      <szBarcodeCompletePath>D:\TPDotnet\Client\Reports\Invoice\94575320260109100612.png</szBarcodeCompletePath>
+      <bIsB2BCust>0</bIsB2BCust>
+      <szInvoiceTitle>TAX INVOICE فاتورة ضريبية</szInvoiceTitle>
+      <szInvoiceSubTitle>SALE / WARRANTY / SERVICE (MAINTENANCE) / PARTS CONTRACT</szInvoiceSubTitle>
+      <szIssuersSign>.</szIssuersSign>
+      <szInvoiceImagePath>D:\TPDotnet\Pictures\Reports\luluHyperHeader.png</szInvoiceImagePath>
+      <szEBillInfo>aHR0cHM6Ly9lYmlsbC5sdWx1Y3JtLmNvbS9hei9sdTF2Um53N2hQb0ZXdw==</szEBillInfo>
+    </FOOTER>
+  </NEW_TA>
+  <Checksum>-463136231</Checksum>
+  <PrintBuffer>ICAgICAgICAgIEx1bHUgSHlwZXJtYXJrZXQgTExDICAgICAgICAgICANCiAgIEJyYW5jaCA0IEt1d2FpdGF0IEFsIEFpbixBYnUgRGhhYmkgICAgDQogICBQLk8uIEJveCA6IDg3NTU1LCBUZWwgOiAwMyA3MTE4NjAwICAgIA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiAgICAgICAgICBUUk46IDEwMDIyODcyMzEwMDAwMyAgICAgICAgICAgDQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIA0KICAgICAgIFRBWCBJTlZPSUNFINmB2KfYqtmI2LHYqSDYttix2YrYqNmK2KkgICAgICAgIA0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSANCiAgXHh7Qk9MRH1Zb3UgaGF2ZSBlYXJuZWQgMTkxLjk1IEhhcHBpbmVzcyBQb2ludHMNCiAgQ3VzdG9tZXI6ICAgICAqKioqKioqKjExOTcgICAgICAgICAgIA0KICAgICAgICAgICAgICAgICAgICAgICAgIA0KKjYyOTQwMTE2NzkyNTQgICAgIDEgeCAgICAgICAgIDkuOTAgICAgUzINCiAgINi62LPZiNmEINin2YTZitiv2YrZhiDZhdiq2YbZiNi5INmE2YjZhNmIDQpMdWx1IFdzZXBrIEgvV2FzaCBBc3QuNTAwbWwgM3MgICAgICAgOS45MA0KIDYyODEwMzYwMjQwOTEgICAgIDEgeCAgICAgICAgIDMuNTAgICAgUzINCiAgINmF2YLYsdmF2LTYp9iqINiw2LHYqSDZg9mI2LHZg9mI2LHZiiDZgdmE2YHZhCDYrdin2LENCkt1cmt1cmUgUmVkY2hpbGxpIENhdGFrYSA5MGcgICAgICAgICAzLjUwDQogNzYxMjQxMjQyMzE2NyAgICAgMSB4ICAgICAgICAzMi41MCAgICBTMg0KICAg2YHYsdi02KfYqSDYo9iz2YbYp9mGINmD2YrZiNix2KfYqNix2YjZg9izDQpDdXJhLlQvQnJzaCBVbHRyYSBTb2Z0IENTNTQ2MCAgICAgICAzMi41MA0KIDIyMDAwMTQ2NTc1MDYgICAgIDEgeCAgICAgICAgIDYuMDAgICAgUzINCiAgINi32YTYp9ihINij2LjYp9mB2LEg2LHZiNiy2Kcg2KjZitmE2KcNClIvQiBOYWlsIFBvbGlzaCAxMW1sIE1KLTEwMTcgICAgICAgICA2LjAwDQogNDgyMDA3ODU3MzQ0NCAgICAgMSB4ICAgICAgICA1Ny43NSAgICBTMg0KICAg2LLZitiqINi52KjYp9ivINi02YXYsyDYtdmGINmD2YrZhtisDQpTdW5LaW5nIFN1bmZsb3dlciBPaWwgNUwgICAgICAgICAgICA1Ny43NQ0KKjUwMjM2NTkyMTA3NzkgICAgIDEgeCAgICAgICAgMzYuOTUgICAgUzINCiAgINiy2YrYqiDYsNix2Kkg2LnYp9mB2YrYqQ0KQWZpYSBDb3JuIE9pbCAxLjVsdCAycyBQTyAgICAgICAgICAgMzYuOTUNCiA2Mjk1MTIwMDI3Mzg3ICAgICAxIHggICAgICAgIDE0Ljc1ICAgIFMyDQogICDZhdi52YLZhSDZhNmE2YrYr9mK2YYg2K/Zitiq2YjZhA0KRGV0LkgvU2FuaXR6ciBGcmVzaCBFL0hvb2s1MG1sICAgICAgMTQuNzUNCiA2MjkxMTA2MTIyMTgzICAgICAxIHggICAgICAgICA4LjI1ICAgIFMyDQogICDYsdmK2YXYpyDZhdiz2K3ZiNmCINmB2YTZgdmEINit2KfYsSDZg9i02YXZitix2YkNClJlZW1hIEthc2guQ2hpbGxpIFBvd2RlciAyMDBnICAgICAgICA4LjI1DQogMS4qRmxhdCAyMCUgT2ZmICAgICAgICAgICAgICAgICAgIC0xLjY1DQoqMjAxNDIyNDAyNTI2NiAgICAgMSB4ICAgICAgICAyMy41MCAgICBTMg0KICAg2KfZhNmB2LHYp9i52YbYqSDYo9ix2LIg2YXYtdix2YkNClBoYXJvZXMgRWd5cHRpYW4gUmljZSA1a2cgUE8gICAgICAgIDIzLjUwDQogMjIwMDAxMTYwNzAzMCAgICAgMSB4ICAgICAgICAgMC41MCAgICBTMg0KICAg2K3ZgtmK2KjYqSDYqtiz2YjZgiDZhNmI2YTZiCDYudin2YTZitipINin2YTYqtit2YXZhA0KSEQgU3VwZXJtYXJrZXQgQmFnICAgICAgICAgICAgICAgICAgIDAuNTANCiAgICAgUEhJTElQUy9XQUhMIENPVVBPTlsxDQogICAgIEhhcHBpbmVzcyBQb2ludHMgICAgIA0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KICAgVG90YWwgICAgICAgICAgICAgICAgICAgICAgICAgIDE5MS45NQ0KICAgSXRlbXMgOiAgICAgIDEwICAgDQogICAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSANCiAgICAgICAgICoqIENvbmdyYXR1bGF0aW9ucyEhISAqKiAgICAgIA0KICAgICAgICAgICAqKiBZb3UgaGF2ZSBzYXZlZCAqKiAgICAgICAgDQogICAgICAgICAgICAgICAgIEFFRCAxLjY1ICAgICAgICAgICAgICANCiAgIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIA0KRXhjaGFuZ2UgVm91Y2hlciBSICBBRUQgICAgICAgMTAyLjEwDQogICBTZXJpYWw6MDIxOTAwMDAzNjA0NTk2MjAwMDcwMjYwMTA5ICAgDQpWSVNBICAgICAgICAgICAgICAgIEFFRCAgICAgICAgODkuODUNCiAgIEVGVC10cmFucyBObyAgPSA0NTc1Mw0KICAgQ2FyZCBObyAgICAgICA9IDQ3ODQwNCoqKioqKjUyODINCiAgIEFVVEggICAgICAgICAgPSA2MTI0MDQNCiAgICAgICAgICANCiAgVGF4IGluY2x1c2l2ZTogINin2YTYttix2YrYqNipINin2YTYtNin2YXZhNipICAgICANCiAgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NClRheCMgVkFUJSAgQmVmb3JlVkFUICAgSW5jbC5WQVQgICAgICBWQVQgDQpTMiAgICA1ICAgICAgIDE4Mi44MSAgICAgMTkxLjk1ICAgICA5LjE0DQogIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQogIFNlcnZlZCBieTogQW1yaXRhIEdoYWxlIEt1bCBCYQ0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KRGF0ZSAgICAgICBUaW1lICAgICBTdG9yZSBQT1MgICBSZWNlaXB0DQowOS0wMS0yMDI2IDEwOjA2OjEyICAyMTkwICAgOSAgICAgNDU3NTMNCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCiAgS2VlcCBiaWxsIGZvciBFeGNoYW5nZSB3aXRoaW4gNyBEYXlzICANCiBWYWxpZCBvbmx5IGF0IGlzc3VlZCBzdG9yZS4qVCZDIEFwcGx5ICANCiAgICAgICAgIFRoYW5rIHlvdSBmb3Igc2hvcHBpbmcgICAgICAgICANCiBTaG9wIG9ubGluZSBhdCB3d3cubHVsdWh5cGVybWFya2V0LmNvbSANClBsZWFzZSBjYXJyeSByZXVzYWJsZSBiYWdzIGZvciBzaG9wcGluZyANCtit2YXZhCDYo9mD2YrYp9izINmC2KfYqNmE2Kkg2YTYpdi52KfYr9ipINin2YTYp9iz2KrYrtiv2KfZhSDZhNmE2KrYs9mI2YIgDQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQpceHtCYXIsIFBUUl9CQ1NfSVRGLCA3NTAsIDkwLCAtMiwgLTEzfSA2NjIxOTAwMDkwMDQ1NzUzMjAyNjAxMDkxMDAyNTdceA0K</PrintBuffer>
+</TAS>
